@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "ts-node-dev --respawn --transpileOnly ./app/app.ts",
     "prod": "tsc && node ./build/app.js",
-    "start": "node ./build/app.js"
+    "start": "node ./app.js"
   },
   "repository": {
     "type": "git",

@@ -1,0 +1,28 @@
+{
+  "orders": [
+    {
+      "id": "764992",
+      "label_option": "repartos",
+      "units": "2000",
+      "period": "1970-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "764992",
+      "label_option": "facturas",
+      "units": "3450",
+      "period": "2016-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "764992",
+      "label_option": "pedidos",
+      "units": "2340",
+      "period": "2015-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "764992",
+      "label_option": "devoluciones",
+      "units": "4000",
+      "period": "2010-01-01T00:00:00.000Z"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "filters": [
+    {
+      "label_option": "Por Sector",
+      "id": "344502",
+      "data": {
+        "total": { "units": "45000", "percentage": "40" },
+        "medicinal": { "units": "30000", "percentage": "70" },
+        "no_medicinal": { "units": "15000", "percentage": "30" }
+      }
+    },
+    {
+      "label_option": "Farmacias",
+      "id": "545331",
+      "data": {
+        "total": { "units": "60000", "percentage": "60" },
+        "medicinal": { "units": "15000", "percentage": "40" },
+        "no_medicinal": { "units": "45000", "percentage": "60" }
+      }
+    }
+  ]
+}

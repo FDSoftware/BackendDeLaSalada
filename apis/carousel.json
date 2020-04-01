@@ -1,0 +1,30 @@
+[
+  {
+    "imgUrl": "https://picsum.photos/304/552",
+    "textHeader": "Rivotril 200",
+    "textBody": "Clonazepam, sold under the brand Klonopin among others, is a medication used to prevent and treat seizures, panic disorder, and the movement disorder known as akathisia.",
+    "textOffer": "Válido hasta 10/04",
+    "id": "1"
+  },
+  {
+    "imgUrl": "https://picsum.photos/304/452",
+    "textHeader": "Ibuprofeno 600",
+    "textBody": "Ibuprofen is a medication in the nonsteroidal anti-inflammatory drug class that is used for treating pain, fever, and inflammation. ",
+    "textOffer": "Válido hasta 09/03",
+    "id": "2"
+  },
+  {
+    "imgUrl": "https://picsum.photos/304/352",
+    "textHeader": "Aciclovir",
+    "textBody": "Aciclovir, also known as acyclovir, is an antiviral medication. It is primarily used for the treatment of herpes simplex virus infections, chickenpox, and shingles.",
+    "textOffer": "Válido hasta 22/02",
+    "id": "3"
+  },
+  {
+    "imgUrl": "https://picsum.photos/304/252",
+    "textHeader": "Diphenhydramine",
+    "textBody": "Diphenhydramine is an antihistamine mainly used to treat allergies. It can also be used for insomnia, symptoms of the common cold, tremor in parkinsonism, and nausea.",
+    "textOffer": "Válido hasta 29/01",
+    "id": "4"
+  }
+]

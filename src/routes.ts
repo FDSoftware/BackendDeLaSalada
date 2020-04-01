@@ -44,7 +44,7 @@ router.get("/api/:key", function(req: any, res: any, next: any) {
   let data = handleToken(req, res);
   if (data !== -1) {
     var key = req.params.key;
-    console.log(`el usuario ${data.username} pidio el elemento ${key}`);
+    console.log(`el usuario '${data.name}' pidio el elemento '${key}'`);
     /* -------------- buscamos los modulos en el directorio ----------------------*/
     const modules = fs
 	.readdirSync('./apis')
@@ -60,7 +60,6 @@ router.get("/api/:key", function(req: any, res: any, next: any) {
     /* ahora leemos el json y lo devolvemos*/
     const jsonRAW = fs.readFileSync("apis/"+module_name)
     let jsonData = JSON.parse(jsonRAW);
-    console.log(jsonData);
     res
       .status(200) // OK
       .json(jsonData) // aca tendria que enviar todo el payload

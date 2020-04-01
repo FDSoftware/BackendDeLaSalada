@@ -1,9 +1,8 @@
 // lib/app.ts
+require('dotenv').config();
 import express = require('express');
-
 var bodyParser = require('body-parser');
 var routes = require("./routes");
-
 
 // Create a new express application instance
 const app: express.Application = express();

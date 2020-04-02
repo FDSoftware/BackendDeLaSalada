@@ -42,4 +42,11 @@ router.post("/api/:key", function(req: any, res: any, next: any) {
     .end();
 });
 
+router.post("/error/:key", function(req: any, res: any, next: any) {
+  res
+    .status(401)
+    .send()
+    .end();
+});
+
 module.exports = router;

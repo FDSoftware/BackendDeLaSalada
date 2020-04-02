@@ -1,18 +1,17 @@
 import { getJWT_body } from "./jwt-body";
-
 /* esto lo separo en modulitos luego, es para sacarlo rapido*/
 var express = require("express");
 var router = express.Router();
 var jwt = require("jsonwebtoken");
 var bcrypt = require("bcrypt");
-
-const clave = process.env.PASS; //esto va en el .env
 const ronditas = 12;
-
 //para leer la data:
 const fs = require("fs");
-
 let rawdata = fs.readFileSync("./apis/test.json");
+/* el certificado RS256 esta pasado por base64 para poder guardarlo en un .env*/
+const rawpass = (process.env.PASS? process.env.PASS : "test"); //esto va en el .env
+const buff = new Buffer(rawpass, 'base64');
+const clave = buff.toString('ascii');
 
 //password pasada por bcrypt para probar:
 const pwd = "$2b$12$gdqaZlCcOh0DWyrfh45wSOEUeDh6PjNYklu7iLlcsjbklchudwypq";
@@ -28,10 +27,12 @@ const handleToken = (req: any, res: any) => {
     return -1;
   }
   try {
-    const decoded = jwt.verify(token, clave);
+    const decoded = jwt.verify(token, clave, {
+      algorithms: ["RS256"]
+    });
     return decoded;
   } catch (ex) {
-      console.log(ex);
+    console.log(ex);
     res
       .status(400)
       .send("JWT caducado / invalido")
@@ -47,18 +48,18 @@ router.get("/api/:key", function(req: any, res: any, next: any) {
     console.log(`el usuario '${data.name}' pidio el elemento '${key}'`);
     /* -------------- buscamos los modulos en el directorio ----------------------*/
     const modules = fs
-	.readdirSync('./apis')
-    .filter((file:string) => file.endsWith('.json'));
+      .readdirSync("./apis")
+      .filter((file: string) => file.endsWith(".json"));
     console.log("modulos disponibles:");
     console.log(modules);
     /* ----------- Filtramos request para ver si coincide con los modulos-------- */
-    let module_name = modules.find((e:string) => e === `${key}.json`);
+    let module_name = modules.find((e: string) => e === `${key}.json`);
     if (!module_name) {
       next();
       return;
     }
     /* ahora leemos el json y lo devolvemos*/
-    const jsonRAW = fs.readFileSync("apis/"+module_name)
+    const jsonRAW = fs.readFileSync("apis/" + module_name);
     let jsonData = JSON.parse(jsonRAW);
     res
       .status(200) // OK
@@ -80,10 +81,8 @@ router.post("/login", async (req: any, res: any) => {
     }
   });
 
-  const token = jwt.sign(getJWT_body(username), clave, {
-    algorithm: "HS256"
-  });
-  
+  const token = jwt.sign(getJWT_body(username), clave, { algorithm: 'RS256'});
+
   let response = {
     access_token: token,
     expires_in: 30000,

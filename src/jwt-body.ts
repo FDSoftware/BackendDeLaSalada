@@ -1,5 +1,6 @@
 export const getJWT_body = (username: string) => {
   return {
+    typ: "at+jwt",
     nbf: 1585596016,
     exp: 3085599616,
     iss: "https://delsud.com.ar",

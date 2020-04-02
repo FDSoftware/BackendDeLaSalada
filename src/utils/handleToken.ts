@@ -15,9 +15,15 @@ export const handleToken = (req: any, res: any) => {
       return -1;
     }
     try {
-      const decoded = jwt.verify(token, clave, {
+      const decoded = jwt.decode(token, clave, {
         algorithms: ["RS256"]
       });
+      if(decoded === null){
+        res
+        .status(401)
+        .send("JWT caducado / invalido")
+        .end();
+      }
       return decoded;
     } catch (ex) {
       console.log(ex);

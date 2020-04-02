@@ -6,7 +6,7 @@ const buff = new Buffer(rawpass, "base64");
 const clave = buff.toString("ascii");
 
 export const handleToken = (req: any, res: any) => {
-    const token = req.body.client_secret;
+    const token = req.header.client_secret;
     if (!token) {
       res
         .status(403)

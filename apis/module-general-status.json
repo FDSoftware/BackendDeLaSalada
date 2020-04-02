@@ -1,0 +1,135 @@
+{
+  "options": [
+    {
+      "value": 1,
+      "text": "Opción 1"
+    },
+    {
+      "value": 2,
+      "text": "Opción 2"
+    },
+    {
+      "value": 3,
+      "text": "Opción 3"
+    }
+  ],
+  "accountData": {
+    "credit": {
+      "toDate": "Al 18/02/2019 14:22hs",
+      "amount": 1235.12
+    },
+    "weeklyPurchase": {
+      "amount": 151315
+    },
+    "balance": {
+      "amount": 1245912
+    }
+  },
+  "barData": [
+    {
+      "id": 1,
+      "title": "Medicinal",
+      "condition": 50,
+      "obtained": 100
+    },
+    {
+      "id": 2,
+      "title": "No medicinal",
+      "condition": 10,
+      "obtained": 35
+    }
+  ],
+  "titleContainer": "descuentos",
+  "cardsContent": [
+    {
+      "id": 1,
+      "name": "Repartos",
+      "label": "",
+      "units": 500000,
+      "period": "Últimos 2 días",
+      "button": "Repartos"
+    },
+    {
+      "id": 2,
+      "name": "Facturas",
+      "label": "",
+      "units": 500000,
+      "period": "Últimos 2 días",
+      "button": "Facturas"
+    },
+    {
+      "id": 3,
+      "name": "pedidos",
+      "label": "",
+      "units": 500000,
+      "period": "Últimos 2 días",
+      "button": "Pedidos"
+    },
+    {
+      "id": 4,
+      "name": "Devoluciones",
+      "label": "Comprobantes",
+      "units": 500000,
+      "period": "Últimos semana",
+      "button": "Ver más"
+    }
+  ],
+  "nextDeliveries": {
+    "prevDate": "28 Abril",
+    "prevTime": "19:00hs",
+    "actDate": "29 Abril",
+    "actTime": "08:00hs",
+    "nextDate": "29 Abril",
+    "nextTime": "19:00hs",
+    "timeToNext": 5,
+    "deliveryProgress": 80
+  },
+  "accreditationsData": {
+    "valuePrimary": 750000,
+    "valueSecondary": 250000
+  },
+  "purchasesData": [
+    {
+      "title": "Sector 1",
+      "id": 0,
+      "value": 0,
+      "data": [
+        {
+          "total": {
+            "units": 124,
+            "percentage": 45
+          },
+          "medicinal": {
+            "units": 148,
+            "percentage": 20
+          },
+          "noMedicinal": {
+            "units": 42,
+            "percentage": 6
+          }
+        }
+      ]
+    },
+    {
+      "title": "Sector 2",
+      "value": 1,
+      "id": 1,
+      "data": [
+        {
+          "total": {
+            "units": 4587979,
+            "percentage": 65
+          },
+          "medicinal": {
+            "units": 16668,
+            "percentage": 30
+          },
+          "noMedicinal": {
+            "units": 4782,
+            "percentage": 45
+          }
+        }
+      ]
+    }
+  ]
+}

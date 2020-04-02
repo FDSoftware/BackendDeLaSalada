@@ -1,0 +1,44 @@
+{
+  "ordersTableData": {
+    "id": "#215444",
+    "name": "Alfredo Pérez",
+    "time": "13:00"
+  },
+  "products": [
+    {
+      "id": "#5488",
+      "name": "Nombre del Producto",
+      "amount": "10"
+    },
+    {
+      "id": "#8643",
+      "name": "Nombre  Producto",
+      "amount": "20"
+    },
+    {
+      "id": "#3834",
+      "name": "Producto",
+      "amount": "30"
+    },
+    {
+      "id": "#8022",
+      "name": "Nombre",
+      "amount": "40"
+    },
+    {
+      "id": "#4613",
+      "name": "Nombre del Producto",
+      "amount": "50"
+    },
+    {
+      "id": "#7926",
+      "name": "Nombre Producto",
+      "amount": "60"
+    },
+    {
+      "id": "#1347",
+      "name": "del Producto",
+      "amount": "70"
+    }
+  ]
+}

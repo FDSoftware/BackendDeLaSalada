@@ -7,8 +7,6 @@ const fs = require("fs");
 
 router.put("/api/:key", function(req: any, res: any, next: any) {
   let data = handleToken(req, res);
-  res.header('Access-Control-Allow-Origin', '*');
-  res.header('Access-Control-Allow-Methods', 'GET, PATCH, PUT, POST, DELETE, OPTIONS');
   if (data !== -1) {
     var key = req.params.key;
     let newdata = JSON.parse(req.body.new_data);

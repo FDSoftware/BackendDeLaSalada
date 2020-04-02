@@ -7,6 +7,7 @@ const fs = require("fs");
 
 router.get("/api/:key", function(req: any, res: any, next: any) {
   let data = handleToken(req, res);
+  res.header('Access-Control-Allow-Origin', '*');
   if (data !== -1) {
     var key = req.params.key;
     console.log(`el usuario '${data.name}' pidio el elemento '${key}'`);

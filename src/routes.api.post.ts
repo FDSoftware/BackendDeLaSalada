@@ -6,6 +6,7 @@ const fs = require("fs");
 
 router.post("/api/:key", function(req: any, res: any, next: any) {
   let data = handleToken(req, res);
+  res.header('Access-Control-Allow-Origin', '*');
   if (data !== -1) {
     var key = req.params.key;
     console.log(`el usuario '${data.name}' insertara elementos en '${key}'`);

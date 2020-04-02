@@ -23,6 +23,7 @@ export const handleToken = (req: any, res: any) => {
         .status(401)
         .send("JWT caducado / invalido")
         .end();
+        return -1;
       }
       return decoded;
     } catch (ex) {

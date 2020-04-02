@@ -1,7 +1,9 @@
-{ 
+[
+  {
     "name": "Sara",
     "age": 23,
     "gender": "Female",
     "department": "History",
     "car": "Honda"
-}
+  }
+]

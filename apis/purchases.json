@@ -1,0 +1,70 @@
+{
+  "cart-head": {
+    "total": 315545.345,
+    "discount": 41225.5564,
+    "units": 1555
+  },
+  "items": [
+    {
+      "id": 5,
+      "isCool": true,
+      "isTraceable": true,
+      "productName": "Ritalin",
+      "packageUnits": 10,
+      "minimum": 1,
+      "lab": "microsules arg",
+      "isNew": true,
+      "statusDate": null,
+      "pvp": 1250,
+      "discountPrice": 1100,
+      "discountPercentage": 12,
+      "isMedicinal": true,
+      "codeDds": 748525,
+      "description": "ritalin 200 mg",
+      "codeBar": 489531749613,
+      "tax": false,
+      "drug": "ritalin"
+    },
+    {
+      "id": 6,
+      "isCritical": true,
+      "isCool": true,
+      "isTraceable": true,
+      "productName": "rocután 2",
+      "packageUnits": 10,
+      "minimum": 1,
+      "lab": "suizo",
+      "isOffer": true,
+      "statusDate": "31/dic",
+      "pvp": 1258.1234,
+      "discountPrice": 1035,
+      "discountPercentage": 30,
+      "isMedicinal": true,
+      "codeDds": 346085,
+      "description": "rocutan 100 mg",
+      "codeBar": 135260794208,
+      "tax": true,
+      "drug": "rocutan"
+    },
+    {
+      "id": 7,
+      "noStock": true,
+      "isCool": true,
+      "productName": "Morfina",
+      "packageUnits": 10,
+      "minimum": 1,
+      "lab": "scienza",
+      "isNew": true,
+      "statusDate": null,
+      "pvp": 513.99,
+      "discountPrice": 407,
+      "discountPercentage": 1,
+      "isMedicinal": true,
+      "codeDds": 346085,
+      "description": "morfina 200 mg",
+      "codeBar": 489531794208,
+      "tax": false,
+      "drug": "morfina"
+    }
+  ]
+}

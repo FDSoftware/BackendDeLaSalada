@@ -6,7 +6,8 @@ const buff = new Buffer(rawpass, "base64");
 const clave = buff.toString("ascii");
 
 export const handleToken = (req: any, res: any) => {
-    const token = req.headers.client_secret;
+    const token = req.headers['x-auth-token'];
+    console.log(token);
     if (!token) {
       res
         .status(403)

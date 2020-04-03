@@ -7,6 +7,7 @@ const clave = buff.toString("ascii");
 
 export const handleToken = (req: any, res: any) => {
     const token = req.headers['x-auth-token'];
+    console.log("el token es:");
     console.log(token);
     if (!token) {
       res

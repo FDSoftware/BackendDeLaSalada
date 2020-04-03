@@ -18,7 +18,7 @@ router.post("/login", async (req: any, res: any) => {
   //vamo a comparar la pwd:
   await bcrypt.compare(password, pwd).then(function(samePassword: any) {
     if (!samePassword) {
-      res.status(403).send();
+      res.status(403).send("no passwd");
     }
   });
 

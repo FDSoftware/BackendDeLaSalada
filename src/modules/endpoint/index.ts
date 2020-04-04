@@ -1,3 +1,4 @@
+export {}
 // importo todos mis middlewares:
 const routesEnpointPost = require("./routes.post");
 //const routesEnpointGet = require("./routes.get");

@@ -1,7 +1,8 @@
+export {}
 var express = require("express");
 var router = express.Router();
-import { handleToken } from "../../utils/handleToken";
-import { getModules } from "../../utils/getModules";
+const { handleToken } = require("@utils/handleToken");
+const { getModules } = require("@utils/getModules");
 const fs = require("fs");
 
 router.post("/endpoint/:key", function (req: any, res: any, next: any) {

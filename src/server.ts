@@ -14,7 +14,7 @@ const apiRoutes = require("./modules/api");
 const loginRoutes = require("./modules/login");
 const endpointRoutes = require("./modules/endpoint");
 const searchRoutes = require("./modules/search");
-import { getModules } from "@utils/getModules";
+const { getModules } = require ("@utils/getModules");
 
 app.use(loginRoutes);
 app.use(apiRoutes);
@@ -23,7 +23,6 @@ app.use(searchRoutes);
 // json modules:
 console.log("modulos disponibles:");
 console.log(getModules());
-
 
 app.use((req, res, next) => {
   res.header("Access-Control-Allow-Origin", "*");

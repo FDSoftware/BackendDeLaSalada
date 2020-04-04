@@ -1,7 +1,7 @@
 var express = require("express");
 var router = express.Router();
-import { handleToken } from "../../utils/handleToken";
-import { getModules } from "../../utils/getModules";
+const { handleToken } = require("@utils/handleToken");
+const { getModules } = require("@utils/getModules");
 const fs = require("fs");
 
 router.post("/search/:key", function (req: any, res: any, next: any) {
@@ -21,7 +21,7 @@ router.post("/search/:key", function (req: any, res: any, next: any) {
     const jsonRAW = fs.readFileSync("./apis/" + module_name);
     let jsonData = JSON.parse(jsonRAW);
 
-    let results = jsonData.filter((e) =>
+    let results = jsonData.filter((e: { [x: string]: any; }) =>
       String(e[param]).match(new RegExp(`^(${search})`, "i"))
     );
 

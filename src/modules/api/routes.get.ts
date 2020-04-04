@@ -1,8 +1,8 @@
+export {}
 var express = require("express");
 var router = express.Router();
-
-import { handleToken } from "../../utils/handleToken";
-import { getModules } from "../../utils/getModules";
+const { handleToken } = require("@utils/handleToken");
+const { getModules } = require("@utils/getModules");
 const fs = require("fs");
 
 router.get("/api/:key", function (req: any, res: any, next: any) {
@@ -13,7 +13,7 @@ router.get("/api/:key", function (req: any, res: any, next: any) {
     /* -------------- buscamos los modulos en el directorio ----------------------*/
     let module_name = getModules().find((e: string) => e === `${key}.json`);
     if (!module_name) {
-      res.status(404).json({erro: 'No se encuentra el endpoint json'}).end();
+      res.status(404).json({ erro: "No se encuentra el endpoint json" }).end();
       return;
     }
     /* ahora leemos el json y lo devolvemos*/

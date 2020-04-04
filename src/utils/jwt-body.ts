@@ -3,7 +3,7 @@ export const getJWT_body = (username: string) => {
     typ: "at+jwt",
     nbf: 1585596016,
     exp: 3085599616,
-    iss: "https://delsud.com.ar",
+    iss: "https://someurl.com.ar",
     aud: "dds_be",
     client_id: "dds_fe",
     sub: "f3705b9a-bb3f-4443-8d6a-dc665119bbe2",

@@ -27,6 +27,7 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
+    "module-alias": "^2.2.2",
     "querystring": "^0.2.0",
     "ts-node-dev": "^1.0.0-pre.44",
     "tsc": "^1.20150623.0",
@@ -34,5 +35,9 @@
   },
   "engines": {
     "node": "10.x"
-  }
+  },
+  "_moduleAliases": {
+    "@utils": "src/utils",
+    "@models": "app/models"
+}
 }

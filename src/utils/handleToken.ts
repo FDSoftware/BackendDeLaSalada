@@ -6,34 +6,26 @@ const buff = new Buffer(rawpass, "base64");
 const clave = buff.toString("ascii");
 
 export const handleToken = (req: any, res: any) => {
-    const token = req.headers['x-auth-token'];
-    console.log("el token es:");
-    console.log(token);
-    if (!token) {
-      res
-        .status(403)
-        .send("dame el JWT gato")
-        .end();
+  const token = req.headers["x-auth-token"];
+  if (!token) {
+    res.status(403).json({ error: "dame el JWT gato" }).end();
+    return -1;
+  }
+  try {
+    const decoded = jwt.decode(token, clave, {
+      algorithms: ["RS256"],
+    });
+    if (decoded === null) {
+      res.status(401).json({ error: "JWT caducado / invalido" }).end();
       return -1;
     }
-    try {
-      const decoded = jwt.decode(token, clave, {
-        algorithms: ["RS256"]
-      });
-      if(decoded === null){
-        res
-        .status(401)
-        .send("JWT caducado / invalido")
-        .end();
-        return -1;
-      }
-      return decoded;
-    } catch (ex) {
-      console.log(ex);
-      res
-        .status(400)
-        .send("JWT caducado / invalido")
-        .end();
-      return -1;
-    }
-  };
+    return decoded;
+  } catch (ex) {
+    console.log(ex);
+    res
+      .status(400)
+      .json({ error: "JWT caducado / invalido", debug: ex.message })
+      .end();
+    return -1;
+  }
+};

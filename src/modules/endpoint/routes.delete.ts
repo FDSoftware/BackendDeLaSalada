@@ -5,23 +5,18 @@ const { handleToken } = require("@utils/handleToken");
 const { getModules } = require("@utils/getModules");
 const fs = require("fs");
 
-router.put("/endpoint/:key", function (req: any, res: any, next: any) {
+router.delete("/endpoint/:key", function (req: any, res: any, next: any) {
   let data = handleToken(req, res);
   if (data !== -1) {
     var key = req.params.key;
     console.log(
-      `el usuario '${data.name}' modificara un enpoint en /apis/'${key}'`
+      `el usuario '${data.name}' eliminara un enpoint en /apis/'${key}'`
     );
     /* ----------- Filtramos request para ver si ya existe el modulo  -------- */
     let module_name = getModules().find((e: string) => e === `${key}.json`);
     if (module_name) {
-      fs.writeFile(
-        "apis/" + module_name,
-        JSON.stringify(req.body),
-        "utf8",
-        (err: any) => {
-          if (err) res.status(500).json({ error: err }).end();
-        }
+      fs.unlinkSync(
+        "apis/" + module_name
       );
       res
         .status(200) // OK

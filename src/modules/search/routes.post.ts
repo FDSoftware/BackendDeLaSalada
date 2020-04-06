@@ -10,7 +10,7 @@ router.post("/search/:key", function (req: any, res: any, next: any) {
   const search = req.headers["search"];
   const key = req.params.key;
   //buscamos los modulos:
-  console.log(`el usuario '${data.name}' pidio el elemento '${key}'`);
+  console.log(`el usuario '${data.name}' busca contenido en '${key}'`);
   /* ----------- Filtramos request para ver si coincide con los modulos-------- */
   const module_name = getModules().find((e: string) => e === `${key}.json`);
   if (!module_name) {

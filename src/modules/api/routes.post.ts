@@ -1,4 +1,4 @@
-export {}
+export {};
 var express = require("express");
 var router = express.Router();
 const { handleToken } = require("@utils/handleToken");
@@ -16,24 +16,32 @@ router.post("/api/:key", function (req: any, res: any, next: any) {
     next();
     return;
   }
-  /* ahora leemos el json*/
-  const jsonRAW = fs.readFileSync("apis/" + module_name);
-  let jsonData = JSON.parse(jsonRAW);
-  /* push furioso:*/
-  jsonData.push(JSON.parse(req.body));
-  fs.writeFile(
-    "apis/" + module_name,
-    JSON.stringify(jsonData),
-    "utf8",
-    (err: any) => {
-      if (err) res.status(500).json(err);
-    }
-  );
+  try {
+    /* ahora leemos el json*/
+    const jsonRAW = fs.readFileSync("apis/" + module_name);
+    let jsonData = JSON.parse(jsonRAW);
+    console.log(jsonData);
+    /* push furioso:*/
+    jsonData.push(req.body);
+    fs.writeFile(
+      "apis/" + module_name,
+      JSON.stringify(jsonData),
+      "utf8",
+      (err: any) => {
+        if (err) res.status(500).json(err);
+      }
+    );
 
-  res
-    .status(200) // OK
-    .json({ status: "Informacion actualizada correctamente" })
-    .end(); // cierra comunicacion
+    res
+      .status(200) // OK
+      .json({ status: "Informacion actualizada correctamente" })
+      .end(); // cierra comunicacion
+  } catch (ex) {
+    res
+      .status(500) // OK
+      .json({ status: "Error leyendo el modulo", debug: ex })
+      .end(); // cierra comunicacion
+  }
 });
 
 router.post("/error/:key", function (req: any, res: any, next: any) {

@@ -20,7 +20,7 @@ router.post("/api/:key", function (req: any, res: any, next: any) {
   const jsonRAW = fs.readFileSync("apis/" + module_name);
   let jsonData = JSON.parse(jsonRAW);
   /* push furioso:*/
-  jsonData.push(JSON.parse(req.body.new_data));
+  jsonData.push(JSON.parse(req.body));
   fs.writeFile(
     "apis/" + module_name,
     JSON.stringify(jsonData),

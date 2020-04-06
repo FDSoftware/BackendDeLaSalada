@@ -11,7 +11,7 @@ router.put("/api/:key", function (req: any, res: any, next: any) {
   let data = handleToken(req, res);
 
   var key = req.params.key;
-  let newdata = JSON.parse(req.body.new_data);
+  let newdata = JSON.parse(req.body);
   console.log(`el usuario '${data.name}' pidio modificar el elemento '${key}'`);
   /* -------------- buscamos los modulos en el directorio ----------------------*/
   let module_name = getModules().find((e: string) => e === `${key}.json`);

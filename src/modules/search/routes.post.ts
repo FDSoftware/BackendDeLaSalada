@@ -6,8 +6,8 @@ const fs = require("fs");
 
 router.post("/search/:key", function (req: any, res: any, next: any) {
   let data = handleToken(req, res);
-  const param = req.headers["param"];
-  const search = req.headers["search"];
+  const param = req.body.param;
+  const search = req.body.search;
   const key = req.params.key;
   //buscamos los modulos:
   console.log(`el usuario '${data.name}' busca contenido en '${key}'`);
@@ -17,11 +17,12 @@ router.post("/search/:key", function (req: any, res: any, next: any) {
     res.status(404).json({ erro: "No se encuentra el endpoint json" }).end();
     return;
   }
+  console.log(req.body);
   try {
     const jsonRAW = fs.readFileSync("./apis/" + module_name);
     let jsonData = JSON.parse(jsonRAW);
 
-    let results = jsonData.filter((e: { [x: string]: any; }) =>
+    let results = jsonData.filter((e: any) =>
       String(e[param]).match(new RegExp(`^(${search})`, "i"))
     );
 
@@ -31,10 +32,7 @@ router.post("/search/:key", function (req: any, res: any, next: any) {
         .json({ status: "OK", data: results })
         .end();
     } else {
-      res
-        .status(500)
-        .json({ status: "sin resultados" })
-        .end();
+      res.status(500).json({ status: "sin resultados" }).end();
     }
   } catch (ex) {
     res

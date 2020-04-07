@@ -1,0 +1,82 @@
+[
+    {
+        "icon": "Clock",
+        "timeStamp": "Hace 1 hora",
+        "content": "¡Tu pedido se envió con éxito!",
+        "hasAction": false,
+        "id": 100,
+        "read": false
+    },
+    {
+        "icon": "MessageCircle",
+        "timeStamp": "Hace 1.5 horas",
+        "content": "Pedro López te envió un mensaje",
+        "hasAction": true,
+        "id": 101,
+        "read": false
+    },
+    {
+        "icon": "User",
+        "timeStamp": "Hace 2 horas",
+        "content": "Agrega un nuevo usuario a tu lista de usuarios asociados",
+        "hasAction": true,
+        "id": 102,
+        "read": false
+    },
+    {
+        "icon": "UserPlus",
+        "timeStamp": "Hace 8 horas",
+        "content": "Pedro López se agregó a tu lista de usuarios asociados",
+        "hasAction": false,
+        "id": 103,
+        "read": true
+    },
+    {
+        "icon": "Clock",
+        "timeStamp": "Hace 10 horas",
+        "content": "¡Tu pedido se envió con éxito!",
+        "hasAction": false,
+        "id": 104,
+        "read": true
+    },
+    {
+        "icon": "Clock",
+        "timeStamp": "Hace 1 hora",
+        "content": "¡Tu pedido se envió con éxito!",
+        "hasAction": false,
+        "id": 105,
+        "read": true
+    },
+    {
+        "icon": "MessageCircle",
+        "timeStamp": "Hace 1.5 horas",
+        "content": "Pedro López te envió un mensaje",
+        "hasAction": true,
+        "id": 106,
+        "read": true
+    },
+    {
+        "icon": "User",
+        "timeStamp": "Hace 2 horas",
+        "content": "Agrega un nuevo usuario a tu lista de usuarios asociados",
+        "hasAction": true,
+        "id": 107,
+        "read": true
+    },
+    {
+        "icon": "UserPlus",
+        "timeStamp": "Hace 8 horas",
+        "content": "Pedro López se agregó a tu lista de usuarios asociados",
+        "hasAction": false,
+        "id": 108,
+        "read": true
+    },
+    {
+        "icon": "Clock",
+        "timeStamp": "Hace 10 horas",
+        "content": "¡Tu pedido se envió con éxito!",
+        "hasAction": false,
+        "id": 109,
+        "read": true
+    }
+]

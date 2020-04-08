@@ -8,7 +8,7 @@ const clave = buff.toString("ascii");
 export const handleToken = (req: any, res: any) => {
   const token = req.headers["x-auth-token"];
   if (!token) {
-    res.status(403).json({ error: "dame el JWT gato" }).end();
+    res.status(403).json({ error: "no hay JWT" }).end();
     return -1;
   }
   try {

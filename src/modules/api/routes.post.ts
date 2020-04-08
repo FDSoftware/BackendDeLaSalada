@@ -5,9 +5,10 @@ const { handleToken } = require("@utils/handleToken");
 const { getModules } = require("@utils/getModules");
 const fs = require("fs");
 
-router.post("/api/:key", function (req: any, res: any, next: any) {
+router.post("/api/:key/:key2?", function (req: any, res: any, next: any) {
   let data = handleToken(req, res);
   var key = req.params.key;
+  var key2 = req.params.key2;
   console.log(`el usuario '${data.name}' insertara elementos en '${key}'`);
   /* -------------- buscamos los modulos en el directorio ----------------------*/
   let module_name = getModules().find((e: string) => e === `${key}.json`);
@@ -20,9 +21,13 @@ router.post("/api/:key", function (req: any, res: any, next: any) {
     /* ahora leemos el json*/
     const jsonRAW = fs.readFileSync("apis/" + module_name);
     let jsonData = JSON.parse(jsonRAW);
-    console.log(jsonData);
+    //console.log(jsonData);
     /* push furioso:*/
-    jsonData.push(req.body);
+    if(key2){
+      jsonData[key2].push(req.body);
+    }else{
+      jsonData.push(req.body);
+    }
     fs.writeFile(
       "apis/" + module_name,
       JSON.stringify(jsonData),

@@ -1,9 +1,5 @@
 {
-  "cart_head": {
-    "total": 315545.345,
-    "discount": 41225.5564,
-    "units": 1555
-  },
+  "cart_head": { "total": 315545.345, "discount": 41225.5564, "units": 1555 },
   "items": [
     {
       "id": 5,
@@ -18,7 +14,7 @@
       "pvp": 1250,
       "discountPrice": 1100,
       "discountPercentage": 12,
-      "cartUnits": 0,
+      "cartUnits": 15,
       "isMedicinal": false,
       "codeDds": 539242,
       "description": "ritalin 285 mg",
@@ -39,13 +35,55 @@
       "pvp": 1250,
       "discountPrice": 1100,
       "discountPercentage": 12,
-      "cartUnits": 0,
+      "cartUnits": 8,
       "isMedicinal": true,
       "codeDds": 136671,
       "description": "morfina 372 mg",
       "codeBar": 378622008,
       "tax": true,
       "drug": "morfina"
+    },
+    {
+      "id": 17,
+      "isCool": true,
+      "isTraceable": false,
+      "productName": "Ibuprofeno",
+      "packageUnits": 17,
+      "minimum": 4,
+      "lab": "Microsules",
+      "isNew": true,
+      "statusDate": null,
+      "pvp": 1250,
+      "discountPrice": 1100,
+      "discountPercentage": 12,
+      "cartUnits": 5,
+      "isMedicinal": true,
+      "codeDds": 71674,
+      "description": "ibuprofeno 497 mg",
+      "codeBar": 427584157,
+      "tax": false,
+      "drug": "ibuprofeno"
+    },
+    {
+      "id": 16,
+      "isCool": false,
+      "isTraceable": true,
+      "productName": "Ibuprofeno",
+      "packageUnits": 20,
+      "minimum": 5,
+      "lab": "Scienza",
+      "isNew": false,
+      "statusDate": null,
+      "pvp": 1250,
+      "discountPrice": 1100,
+      "discountPercentage": 12,
+      "cartUnits": 15,
+      "isMedicinal": true,
+      "codeDds": 274218,
+      "description": "ibuprofeno 15 mg",
+      "codeBar": 933854733,
+      "tax": false,
+      "drug": "ibuprofeno"
     }
   ]
 }

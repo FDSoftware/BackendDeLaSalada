@@ -22,14 +22,13 @@ router.put("/api/:key/:key2?", function (req: any, res: any, next: any) {
   /* ahora leemos el json , editamos y devolvemos*/
   const jsonRAW = fs.readFileSync("apis/" + module_name);
   let jsonData = JSON.parse(jsonRAW);
-  
+
   if (key2) {
     jsonData[key2].map((e: any, index: number) => {
       if (e.id == req.body.id) {
         jsonData[key2][index] = req.body;
       }
     });
-    jsonData[key2].push(req.body);
   } else {
     jsonData.map((e: any, index: number) => {
       if (e.id == req.body.id) {

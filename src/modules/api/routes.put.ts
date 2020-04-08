@@ -7,10 +7,11 @@ const { getModules } = require("@utils/getModules");
 
 const fs = require("fs");
 
-router.put("/api/:key", function (req: any, res: any, next: any) {
+router.put("/api/:key/:key2?", function (req: any, res: any, next: any) {
   let data = handleToken(req, res);
 
   var key = req.params.key;
+  var key2 = req.params.key2;
   console.log(`el usuario '${data.name}' pidio modificar el elemento '${key}'`);
   /* -------------- buscamos los modulos en el directorio ----------------------*/
   let module_name = getModules().find((e: string) => e === `${key}.json`);
@@ -21,11 +22,21 @@ router.put("/api/:key", function (req: any, res: any, next: any) {
   /* ahora leemos el json , editamos y devolvemos*/
   const jsonRAW = fs.readFileSync("apis/" + module_name);
   let jsonData = JSON.parse(jsonRAW);
-  jsonData.map((e: any, index: number) => {
-    if (e.id == req.body.id) {
-      jsonData[index] = req.body;
-    }
-  });
+  
+  if (key2) {
+    jsonData[key2].map((e: any, index: number) => {
+      if (e.id == req.body.id) {
+        jsonData[key2][index] = req.body;
+      }
+    });
+    jsonData[key2].push(req.body);
+  } else {
+    jsonData.map((e: any, index: number) => {
+      if (e.id == req.body.id) {
+        jsonData[index] = req.body;
+      }
+    });
+  }
 
   try {
     fs.writeFile(

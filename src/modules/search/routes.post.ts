@@ -17,7 +17,7 @@ router.post("/search/:key", function (req: any, res: any, next: any) {
     res.status(404).json({ erro: "No se encuentra el endpoint json" }).end();
     return;
   }
-  console.log(req.body);
+  console.log({param,search});
   try {
     const jsonRAW = fs.readFileSync("./apis/" + module_name);
     let jsonData = JSON.parse(jsonRAW);

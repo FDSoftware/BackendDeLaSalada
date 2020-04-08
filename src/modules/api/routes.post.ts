@@ -21,7 +21,7 @@ router.post("/api/:key/:key2?", function (req: any, res: any, next: any) {
     /* ahora leemos el json*/
     const jsonRAW = fs.readFileSync("apis/" + module_name);
     let jsonData = JSON.parse(jsonRAW);
-    //console.log(jsonData);
+    console.log(req.body);
     /* push furioso:*/
     if(key2){
       jsonData[key2].push(req.body);

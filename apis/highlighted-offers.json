@@ -1,60 +1,58 @@
-{
-  "highlightedOffers": [
-    {
-      "imgUrl": "https://www.savant.com.py/wp-content/uploads/2019/04/0003_FABOGESIC-COMPRIMIDOS-20X600-600x400.png",
-      "textHeader": "Ibuprofeno 600",
-      "textBody": "Ibuprofen is a medication in the nonsteroidal anti-inflammatory drug class that is used for treating pain, fever, and inflammation. ",
-      "textOffer": "Válido hasta 09/03",
-      "id": 1
-    },
-    {
-      "imgUrl": "https://encolombia.com/wp-content/uploads/2018/01/genfar-aciclovir-unguento-5.png",
-      "textHeader": "Aciclovir",
-      "textBody": "Aciclovir, also known as acyclovir, is an antiviral medication. It is primarily used for the treatment of herpes simplex virus infections, chickenpox, and shingles.",
-      "textOffer": "Válido hasta 22/02",
-      "id": 2
-    },
-    {
-      "imgUrl": "https://www.healthline.com/hlcmsresource/images/News/benadryl-1200x628-facebook.jpg",
-      "textHeader": "Diphenhydramine",
-      "textBody": "Diphenhydramine is an antihistamine mainly used to treat allergies. It can also be used for insomnia, symptoms of the common cold, tremor in parkinsonism, and nausea.",
-      "textOffer": "Válido hasta 29/01",
-      "id": 4
-    },
-    {
-      "imgUrl": "https://encolombia.com/wp-content/uploads/2018/01/genfar-aciclovir-unguento-5.png",
-      "textHeader": "Aciclovir",
-      "textBody": "Aciclovir, also known as acyclovir, is an antiviral medication. It is primarily used for the treatment of herpes simplex virus infections, chickenpox, and shingles.",
-      "textOffer": "Válido hasta 22/02",
-      "id": 5
-    },
-    {
-      "imgUrl": "https://www.savant.com.py/wp-content/uploads/2019/04/0003_FABOGESIC-COMPRIMIDOS-20X600-600x400.png",
-      "textHeader": "Ibuprofeno 600",
-      "textBody": "Ibuprofen is a medication in the nonsteroidal anti-inflammatory drug class that is used for treating pain, fever, and inflammation. ",
-      "textOffer": "Válido hasta 09/03",
-      "id": 6
-    },
-    {
-      "imgUrl": "https://encolombia.com/wp-content/uploads/2018/01/genfar-aciclovir-unguento-5.png",
-      "textHeader": "Aciclovir",
-      "textBody": "Aciclovir, also known as acyclovir, is an antiviral medication. It is primarily used for the treatment of herpes simplex virus infections, chickenpox, and shingles.",
-      "textOffer": "Válido hasta 22/02",
-      "id": 7
-    },
-    {
-      "imgUrl": "https://www.healthline.com/hlcmsresource/images/News/benadryl-1200x628-facebook.jpg",
-      "textHeader": "Diphenhydramine",
-      "textBody": "Diphenhydramine is an antihistamine mainly used to treat allergies. It can also be used for insomnia, symptoms of the common cold, tremor in parkinsonism, and nausea.",
-      "textOffer": "Válido hasta 29/01",
-      "id": 8
-    },
-    {
-      "imgUrl": "data:image/jpeg;base64,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",
-      "textHeader": "Rivotril 200",
-      "textBody": "Clonazepam, sold under the brand Klonopin among others, is a medication used to prevent and treat seizures, panic disorder, and the movement disorder known as akathisia.",
-      "textOffer": "Válido hasta 10/04",
-      "id": 9
-    }
-  ]
-}
+[
+	{
+		"imgUrl": "https://www.savant.com.py/wp-content/uploads/2019/04/0003_FABOGESIC-COMPRIMIDOS-20X600-600x400.png",
+		"textHeader": "Ibuprofeno 600",
+		"textBody": "Ibuprofen is a medication in the nonsteroidal anti-inflammatory drug class that is used for treating pain, fever, and inflammation. ",
+		"textOffer": "Válido hasta 09/03",
+		"id": 1
+	},
+	{
+		"imgUrl": "https://encolombia.com/wp-content/uploads/2018/01/genfar-aciclovir-unguento-5.png",
+		"textHeader": "Aciclovir",
+		"textBody": "Aciclovir, also known as acyclovir, is an antiviral medication. It is primarily used for the treatment of herpes simplex virus infections, chickenpox, and shingles.",
+		"textOffer": "Válido hasta 22/02",
+		"id": 2
+	},
+	{
+		"imgUrl": "https://www.healthline.com/hlcmsresource/images/News/benadryl-1200x628-facebook.jpg",
+		"textHeader": "Diphenhydramine",
+		"textBody": "Diphenhydramine is an antihistamine mainly used to treat allergies. It can also be used for insomnia, symptoms of the common cold, tremor in parkinsonism, and nausea.",
+		"textOffer": "Válido hasta 29/01",
+		"id": 4
+	},
+	{
+		"imgUrl": "https://encolombia.com/wp-content/uploads/2018/01/genfar-aciclovir-unguento-5.png",
+		"textHeader": "Aciclovir",
+		"textBody": "Aciclovir, also known as acyclovir, is an antiviral medication. It is primarily used for the treatment of herpes simplex virus infections, chickenpox, and shingles.",
+		"textOffer": "Válido hasta 22/02",
+		"id": 5
+	},
+	{
+		"imgUrl": "https://www.savant.com.py/wp-content/uploads/2019/04/0003_FABOGESIC-COMPRIMIDOS-20X600-600x400.png",
+		"textHeader": "Ibuprofeno 600",
+		"textBody": "Ibuprofen is a medication in the nonsteroidal anti-inflammatory drug class that is used for treating pain, fever, and inflammation. ",
+		"textOffer": "Válido hasta 09/03",
+		"id": 6
+	},
+	{
+		"imgUrl": "https://encolombia.com/wp-content/uploads/2018/01/genfar-aciclovir-unguento-5.png",
+		"textHeader": "Aciclovir",
+		"textBody": "Aciclovir, also known as acyclovir, is an antiviral medication. It is primarily used for the treatment of herpes simplex virus infections, chickenpox, and shingles.",
+		"textOffer": "Válido hasta 22/02",
+		"id": 7
+	},
+	{
+		"imgUrl": "https://www.healthline.com/hlcmsresource/images/News/benadryl-1200x628-facebook.jpg",
+		"textHeader": "Diphenhydramine",
+		"textBody": "Diphenhydramine is an antihistamine mainly used to treat allergies. It can also be used for insomnia, symptoms of the common cold, tremor in parkinsonism, and nausea.",
+		"textOffer": "Válido hasta 29/01",
+		"id": 8
+	},
+	{
+		"imgUrl": "data:image/jpeg;base64,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",
+		"textHeader": "Rivotril 200",
+		"textBody": "Clonazepam, sold under the brand Klonopin among others, is a medication used to prevent and treat seizures, panic disorder, and the movement disorder known as akathisia.",
+		"textOffer": "Válido hasta 10/04",
+		"id": 9
+	}
+]

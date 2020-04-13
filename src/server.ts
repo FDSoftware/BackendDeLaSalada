@@ -9,17 +9,6 @@ var bodyParser = require("body-parser");
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json({ limit: "10mb" }));
 
-// rutas:
-const apiRoutes = require("./modules/api");
-const loginRoutes = require("./modules/login");
-const endpointRoutes = require("./modules/endpoint");
-const searchRoutes = require("./modules/search");
-const { getModules } = require ("@utils/getModules");
-
-// json modules:
-console.log("modulos disponibles:");
-console.log(getModules());
-
 app.use((req, res, next) => {
   res.header("Access-Control-Allow-Origin", "*");
   res.header(
@@ -31,6 +20,19 @@ app.use((req, res, next) => {
   res.header("Access-Control-Allow-Headers", "*");
   next();
 });
+
+// rutas:
+const apiRoutes = require("./modules/api");
+const loginRoutes = require("./modules/login");
+const endpointRoutes = require("./modules/endpoint");
+const searchRoutes = require("./modules/search");
+const { getModules } = require ("@utils/getModules");
+
+// json modules:
+console.log("modulos disponibles:");
+console.log(getModules());
+
+
 // setup modulos:
 app.use(loginRoutes);
 app.use(apiRoutes);

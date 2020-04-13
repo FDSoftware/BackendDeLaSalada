@@ -32,7 +32,7 @@ router.post("/search/:key", function (req: any, res: any, next: any) {
         .json({ status: "OK", data: results })
         .end();
     } else {
-      res.status(500).json({ status: "sin resultados" }).end();
+      res.status(404).json({ status: "sin resultados" }).end();
     }
   } catch (ex) {
     res

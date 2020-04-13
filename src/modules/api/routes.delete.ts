@@ -26,10 +26,10 @@ router.delete("/api/:key/:key2/:key3?", function (req: any, res: any, next: any)
     console.log(req.body);
     /* push furioso:*/
     if(key3){
-      jsonFilter = jsonData[key3].filter((e) => e.id != key2);
+      jsonFilter = jsonData[key3].filter((e: { id: any; }) => e.id != key2);
       jsonData[key3] = jsonFilter;
     }else{
-      jsonData = jsonData.filter((e) => e.id != key2);
+      jsonData = jsonData.filter((e: { id: any; }) => e.id != key2);
     }
     fs.writeFile(
       "apis/" + module_name,

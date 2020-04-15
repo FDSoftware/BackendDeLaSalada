@@ -24,9 +24,9 @@ router.post("/api/:key/:key2?", function (req: any, res: any, next: any) {
     console.log(req.body);
     /* push furioso:*/
     if(key2){
-      jsonData[key2].push(req.body);
+      jsonData[key2].unshift(req.body);
     }else{
-      jsonData.push(req.body);
+      jsonData.unshift(req.body);
     }
     fs.writeFile(
       "apis/" + module_name,

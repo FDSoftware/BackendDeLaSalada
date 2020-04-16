@@ -16,7 +16,7 @@ router.put("/api/:key/:key2?", function (req: any, res: any, next: any) {
   /* -------------- buscamos los modulos en el directorio ----------------------*/
   let module_name = getModules().find((e: string) => e === `${key}.json`);
   if (!module_name) {
-    next();
+    res.status(500).json({ status: "no se encuentra el json" });
     return;
   }
   /* ahora leemos el json , editamos y devolvemos*/
@@ -43,7 +43,10 @@ router.put("/api/:key/:key2?", function (req: any, res: any, next: any) {
       JSON.stringify(jsonData),
       "utf8",
       (err: any) => {
-        if (err) res.status(500).json(err);
+        if (err)
+          res
+            .status(500)
+            .json({ status: "Error leyendo el modulo", debug: err });
       }
     );
 

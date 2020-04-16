@@ -1,0 +1,50 @@
+[
+	{
+		"id": 857,
+		"cells": {
+			"clientCode": 1538,
+			"DDSCode": "16435298",
+			"materialName": "Paracetamol"
+		}
+	},
+	{
+		"id": 861,
+		"cells": {
+			"clientCode": 9654,
+			"DDSCode": "69751313",
+			"materialName": "Sulfadiazina de Plata"
+		}
+	},
+	{
+		"id": 862,
+		"cells": {
+			"clientCode": 4678,
+			"DDSCode": "13976548",
+			"materialName": "Ácido Acetilsalicílico"
+		}
+	},
+	{
+		"id": 869,
+		"cells": {
+			"clientCode": 3487,
+			"DDSCode": "99876315",
+			"materialName": "Ácido hialurónico"
+		}
+	},
+	{
+		"id": 1587,
+		"cells": {
+			"clientCode": 4468,
+			"DDSCode": "77631534",
+			"materialName": "Retinol"
+		}
+	},
+	{
+		"id": 1599,
+		"cells": {
+			"clientCode": 8867,
+			"DDSCode": "11356499",
+			"materialName": "Óxido de Zinc"
+		}
+	}
+]

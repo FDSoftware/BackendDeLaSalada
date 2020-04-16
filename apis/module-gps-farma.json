@@ -1,102 +1,104 @@
-[
-  [
-    {
-      "id": 43241,
-      "name": "Usuario1",
-      "time": 12
-    },
-    {
-      "id": 43569,
-      "name": "item compra 1",
-      "amount": 150
-    },
-    {
-      "id": 43690,
-      "name": "item compra 2",
-      "amount": 50
-    },
-    {
-      "id": 43549,
-      "name": "item compra 3",
-      "amount": 250
-    }
-  ],
-  [
-    {
-      "id": 45678,
-      "name": "Usuario 2",
-      "time": 4
-    },
-    {
-      "id": 4658,
-      "name": "item compra 1",
-      "amount": 45
-    }
-  ],
-  [
-    {
-      "id": 43242,
-      "name": "Usuario3",
-      "time": 10
-    },
-    {
-      "id": 43570,
-      "name": "item compra 1",
-      "amount": 150
-    },
-    {
-      "id": 43691,
-      "name": "item compra 2",
-      "amount": 50
-    },
-    {
-      "id": 43550,
-      "name": "item compra 3",
-      "amount": 250
-    }
-  ],
-  [
-    {
-      "id": 43243,
-      "name": "Usuario4",
-      "time": 12
-    },
-    {
-      "id": 43571,
-      "name": "item compra 1",
-      "amount": 150
-    },
-    {
-      "id": "43692",
-      "name": "item compra 2",
-      "amount": 50
-    },
-    {
-      "id": "43551",
-      "name": "item compra 3",
-      "amount": 250
-    }
-  ],
-  [
-    {
-      "id": 43244,
-      "name": "Usuario5",
-      "time": 20
-    },
-    {
-      "id": 43572,
-      "name": "item compra 1",
-      "amount": 150
-    },
-    {
-      "id": 43693,
-      "name": "item compra 2",
-      "amount": 50
-    },
-    {
-      "id": 43552,
-      "name": "item compra 3",
-      "amount": 250
-    }
+{
+  "data": [
+    [
+      {
+        "id": 43241,
+        "name": "Usuario1",
+        "time": 12
+      },
+      {
+        "id": 43569,
+        "name": "item compra 1",
+        "amount": 150
+      },
+      {
+        "id": 43690,
+        "name": "item compra 2",
+        "amount": 50
+      },
+      {
+        "id": 43549,
+        "name": "item compra 3",
+        "amount": 250
+      }
+    ],
+    [
+      {
+        "id": 45678,
+        "name": "Usuario 2",
+        "time": 4
+      },
+      {
+        "id": 4658,
+        "name": "item compra 1",
+        "amount": 45
+      }
+    ],
+    [
+      {
+        "id": 43242,
+        "name": "Usuario3",
+        "time": 10
+      },
+      {
+        "id": 43570,
+        "name": "item compra 1",
+        "amount": 150
+      },
+      {
+        "id": 43691,
+        "name": "item compra 2",
+        "amount": 50
+      },
+      {
+        "id": 43550,
+        "name": "item compra 3",
+        "amount": 250
+      }
+    ],
+    [
+      {
+        "id": 43243,
+        "name": "Usuario4",
+        "time": 12
+      },
+      {
+        "id": 43571,
+        "name": "item compra 1",
+        "amount": 150
+      },
+      {
+        "id": "43692",
+        "name": "item compra 2",
+        "amount": 50
+      },
+      {
+        "id": "43551",
+        "name": "item compra 3",
+        "amount": 250
+      }
+    ],
+    [
+      {
+        "id": 43244,
+        "name": "Usuario5",
+        "time": 20
+      },
+      {
+        "id": 43572,
+        "name": "item compra 1",
+        "amount": 150
+      },
+      {
+        "id": 43693,
+        "name": "item compra 2",
+        "amount": 50
+      },
+      {
+        "id": 43552,
+        "name": "item compra 3",
+        "amount": 250
+      }
+    ]
   ]
-]
+}

@@ -34,16 +34,20 @@
 			},
 			"barData": {
 				"titleContainer": "descuentos",
-				"data": {
-					"medicinal": {
-						"condition": 50,
-						"obtained": 100
+				"data": [
+					{
+						"id": 1,
+						"title": "Medicinal",
+						"condition": 22,
+						"obtained": 60
 					},
-					"noMedicinal": {
-						"condition": 10,
-						"obtained": 35
+					{
+						"id": 2,
+						"title": "No Medicinal",
+						"condition": 35,
+						"obtained": 40
 					}
-				}
+				]
 			},
 			"cardsContent": [
 				{
@@ -172,16 +176,20 @@
 			},
 			"barData": {
 				"titleContainer": "descuentos",
-				"data": {
-					"medicinal": {
-						"condition": 50,
-						"obtained": 10
+				"data": [
+					{
+						"id": 1,
+						"title": "Medicinal",
+						"condition": 22,
+						"obtained": 60
 					},
-					"noMedicinal": {
-						"condition": 40,
-						"obtained": 35
+					{
+						"id": 2,
+						"title": "No Medicinal",
+						"condition": 35,
+						"obtained": 40
 					}
-				}
+				]
 			},
 			"cardsContent": [
 				{
@@ -310,16 +318,20 @@
 			},
 			"barData": {
 				"titleContainer": "descuentos",
-				"data": {
-					"medicinal": {
-						"condition": 44,
-						"obtained": 90
+				"data": [
+					{
+						"id": 1,
+						"title": "Medicinal",
+						"condition": 22,
+						"obtained": 60
 					},
-					"noMedicinal": {
-						"condition": 20,
-						"obtained": 5
+					{
+						"id": 2,
+						"title": "No Medicinal",
+						"condition": 35,
+						"obtained": 40
 					}
-				}
+				]
 			},
 			"cardsContent": [
 				{

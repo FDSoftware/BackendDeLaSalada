@@ -13,7 +13,24 @@
         },
         "balance": {
           "amount": 1245912
-        }
+        },
+		"totalOptions": [
+			{
+				"title": "Total Farmacias",
+				"value": 1,
+				"amount": 50000
+			},
+			{
+				"title": "Total Farmacias",
+				"value": 2,
+				"amount": 50000
+			},
+			{
+				"title": "Total Farmacias",
+				"value": 3,
+				"amount": 50000
+			},
+		]
       },
       "barData": {
         "titleContainer": "descuentos",
@@ -127,14 +144,31 @@
       "accountData": {
         "credit": {
           "toDate": "Al 18/04/2019 14:22hs",
-          "amount": 351
+          "amount": 1235.12
         },
         "weeklyPurchase": {
-          "amount": 315
+          "amount": 151315
         },
         "balance": {
-          "amount": 120
-        }
+          "amount": 1245912
+        },
+		"totalOptions": [
+			{
+				"title": "Total Farmacias",
+				"value": 1,
+				"amount": 50000
+			},
+			{
+				"title": "Total Farmacias",
+				"value": 2,
+				"amount": 50000
+			},
+			{
+				"title": "Total Farmacias",
+				"value": 3,
+				"amount": 50000
+			},
+		]
       },
       "barData": {
         "titleContainer": "descuentos",
@@ -247,15 +281,32 @@
     "data": {
       "accountData": {
         "credit": {
-          "toDate": "Al 10/07/2019 14:22hs",
+          "toDate": "Al 18/04/2019 14:22hs",
           "amount": 1235.12
         },
         "weeklyPurchase": {
-          "amount": 120000
+          "amount": 151315
         },
         "balance": {
-          "amount": 453900
-        }
+          "amount": 1245912
+        },
+		"totalOptions": [
+			{
+				"title": "Total Farmacias",
+				"value": 1,
+				"amount": 50000
+			},
+			{
+				"title": "Total Farmacias",
+				"value": 2,
+				"amount": 50000
+			},
+			{
+				"title": "Total Farmacias",
+				"value": 3,
+				"amount": 50000
+			},
+		]
       },
       "barData": {
         "titleContainer": "descuentos",

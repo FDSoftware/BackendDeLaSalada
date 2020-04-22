@@ -14,8 +14,6 @@ RUN npm install
 
 # Copy all other source code to work directory
 ADD . /usr/src/app
-# TypeScript
-RUN npm run tsc
 
 # Start
 CMD [ "npm", "start" ]

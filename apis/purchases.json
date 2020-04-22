@@ -24,7 +24,8 @@
 			"description": "paracetamol 472 mg",
 			"codeBar": 918072568,
 			"tax": true,
-			"drug": "paracetamol"
+			"drug": "paracetamol",
+			"img": "https://onlinerxmedication.com/wp-content/uploads/2019/09/CLONAZEPAM-2MG.jpg"
 		},
 		{
 			"id": 31,
@@ -45,7 +46,8 @@
 			"description": "Oxibutinina 509 mg",
 			"codeBar": 743984911,
 			"tax": true,
-			"drug": "oxibutinina"
+			"drug": "oxibutinina",
+			"img": "https://onlinerxmedication.com/wp-content/uploads/2019/09/CLONAZEPAM-2MG.jpg"
 		},
 		{
 			"id": 36,
@@ -66,7 +68,8 @@
 			"description": "cefuroxima 387 mg",
 			"codeBar": 366857308,
 			"tax": false,
-			"drug": "cefuroxima"
+			"drug": "cefuroxima",
+			"img": "https://encolombia.com/wp-content/uploads/2018/01/genfar-aciclovir-unguento-5.png"
 		}
 	]
 }

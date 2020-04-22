@@ -8,8 +8,8 @@ COPY package*.json ./
 
 RUN npm ci
 
-RUN npm i -g ts-node
+RUN npm i -g tsc
 
 COPY . .
 
-CMD [ "ts-node ", "src/server.ts" ]
+CMD [ "tsc && node ./build/server.js"]

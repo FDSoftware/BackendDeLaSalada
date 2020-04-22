@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "ts-node-dev --respawn --transpileOnly ./src/server.ts",
-    "prod": "tsc && node ./build/server.js",
+    "prod": "tsc --ignore-error && node ./build/server.js",
     "start": "ts-node src/server.ts"
   },
   "repository": {

@@ -1,15 +1,23 @@
 FROM node:lts
 
+# Env
+ENV NODE_ENV dev
+ENV NODE_CONFIG_ENV dev
+
+# Create Directory for the Container
 WORKDIR /usr/src/app
 
-RUN apt-get update || : && apt-get install python -y
+# Only copy the package.json file to work directory
+COPY package.json .
+# Install all Packages
+RUN npm install
 
-COPY package*.json ./
+# Copy all other source code to work directory
+ADD . /usr/src/app
+# TypeScript
+RUN npm run tsc
 
-RUN npm ci
+# Start
+CMD [ "npm", "start" ]
 
-RUN npm i -g tsc
-
-COPY . .
-
-CMD [ "tsc && node ./build/server.js"]
+EXPOSE 5000

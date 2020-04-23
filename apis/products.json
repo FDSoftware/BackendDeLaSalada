@@ -18,8 +18,7 @@
 		"description": "ritalin 285 mg",
 		"codeBar": 876272695,
 		"tax": true,
-		"drug": "ritalin",
-		"img": "https://www.savant.com.py/wp-content/uploads/2019/04/0003_FABOGESIC-COMPRIMIDOS-20X600-600x400.png"
+		"drug": "ritalin"
 	},
 	{
 		"id": 6,
@@ -62,8 +61,7 @@
 		"description": "ritalin 72 mg",
 		"codeBar": 241535640,
 		"tax": false,
-		"drug": "ritalin",
-		"img": "https://encolombia.com/wp-content/uploads/2018/01/genfar-aciclovir-unguento-5.png"
+		"drug": "ritalin"
 	},
 	{
 		"id": 8,
@@ -150,8 +148,7 @@
 		"description": "rocután 308 mg",
 		"codeBar": 555396651,
 		"tax": false,
-		"drug": "rocután",
-		"img": "https://onlinerxmedication.com/wp-content/uploads/2019/09/CLONAZEPAM-2MG.jpg"
+		"drug": "rocután"
 	},
 	{
 		"id": 12,
@@ -194,8 +191,7 @@
 		"description": "rocután 434 mg",
 		"codeBar": 70207466,
 		"tax": true,
-		"drug": "rocután",
-		"img": "https://onlinerxmedication.com/wp-content/uploads/2019/09/CLONAZEPAM-2MG.jpg"
+		"drug": "rocután"
 	},
 	{
 		"id": 15,
@@ -260,8 +256,7 @@
 		"description": "ibuprofeno 497 mg",
 		"codeBar": 427584157,
 		"tax": false,
-		"drug": "ibuprofeno",
-		"img": "https://encolombia.com/wp-content/uploads/2018/01/genfar-aciclovir-unguento-5.png"
+		"drug": "ibuprofeno"
 	},
 	{
 		"id": 20,
@@ -304,8 +299,7 @@
 		"description": "paracetamol 276 mg",
 		"codeBar": 561607539,
 		"tax": false,
-		"drug": "paracetamol",
-		"img": "https://encolombia.com/wp-content/uploads/2018/01/genfar-aciclovir-unguento-5.png"
+		"drug": "paracetamol"
 	},
 	{
 		"id": 22,
@@ -392,8 +386,7 @@
 		"description": "Betametasona 151 mg",
 		"codeBar": 573802085,
 		"tax": false,
-		"drug": "Betametasona",
-		"img": "https://www.healthline.com/hlcmsresource/images/News/benadryl-1200x628-facebook.jpg"
+		"drug": "Betametasona"
 	},
 	{
 		"id": 29,
@@ -458,8 +451,7 @@
 		"description": "Oxibutinina 509 mg",
 		"codeBar": 743984911,
 		"tax": true,
-		"drug": "oxibutinina",
-		"img": "https://onlinerxmedication.com/wp-content/uploads/2019/09/CLONAZEPAM-2MG.jpg"
+		"drug": "oxibutinina"
 	},
 	{
 		"id": 34,
@@ -502,8 +494,7 @@
 		"description": "cefuroxima 104 mg",
 		"codeBar": 764259019,
 		"tax": false,
-		"drug": "cefuroxima",
-		"img": "https://encolombia.com/wp-content/uploads/2018/01/genfar-aciclovir-unguento-5.png"
+		"drug": "cefuroxima"
 	},
 	{
 		"id": 36,

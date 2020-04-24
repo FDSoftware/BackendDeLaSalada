@@ -16,17 +16,17 @@
 				},
 				"totalOptions": [
 					{
-						"title": "Total Farmacias",
+						"text": "Total Farmacias",
 						"value": 1,
 						"amount": 6700
 					},
 					{
-						"title": "Total Perfumerias",
+						"text": "Total Perfumerias",
 						"value": 2,
 						"amount": 1000
 					},
 					{
-						"title": "Total",
+						"text": "Total",
 						"value": 3,
 						"amount": 30000
 					}
@@ -158,17 +158,17 @@
 				},
 				"totalOptions": [
 					{
-						"title": "Total Farmacias",
+						"text": "Total Farmacias",
 						"value": 1,
 						"amount": 5900
 					},
 					{
-						"title": "Total Perfumerias",
+						"text": "Total Perfumerias",
 						"value": 2,
 						"amount": 500
 					},
 					{
-						"title": "Total",
+						"text": "Total",
 						"value": 3,
 						"amount": 45600
 					}
@@ -300,17 +300,17 @@
 				},
 				"totalOptions": [
 					{
-						"title": "Total Farmacias",
+						"text": "Total Farmacias",
 						"value": 1,
 						"amount": 3000
 					},
 					{
-						"title": "Total Perfumerias",
+						"text": "Total Perfumerias",
 						"value": 2,
 						"amount": 45000
 					},
 					{
-						"title": "Total",
+						"text": "Total",
 						"value": 3,
 						"amount": 55000
 					}

@@ -2,6 +2,7 @@
 	"username": "Alejandro Gómez",
 	"role": "Encargado",
 	"user_id": 11446,
+	"isActive": true,
 	"email": "alejandro@gmail.com",
 	"phone": "9 (11) 4949 1414",
 	"pharmacy_name":"Nueva Farmacia",

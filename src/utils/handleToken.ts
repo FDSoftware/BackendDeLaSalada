@@ -2,7 +2,7 @@ var jwt = require("jsonwebtoken");
 
 /* el certificado RS256 esta pasado por base64 para poder guardarlo en un .env*/
 const rawpass = process.env.PASS ? process.env.PASS : "test"; //esto va en el .env
-const buff = new Buffer(rawpass, "base64");
+const buff =  Buffer.from(rawpass, "base64");
 const clave = buff.toString("ascii");
 
 export const handleToken = (req: any, res: any) => {

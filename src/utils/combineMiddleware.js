@@ -5,10 +5,10 @@
  *   function(req, res, next) { ... }
  * @return {Function} single combined middleware
  */
-export function combineMiddleware(mids: any[]) {
+export function combineMiddleware(mids) {
   return mids.reduce(function (a, b) {
-    return function (req: any, res: any, next: (arg0: any) => any) {
-      a(req, res, function (err: any) {
+    return function (req, res, next) {
+      a(req, res, function (err) {
         if (err) {
           return next(err);
         }

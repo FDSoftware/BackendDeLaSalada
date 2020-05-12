@@ -2,11 +2,12 @@
 require("dotenv").config();
 require("module-alias/register");
 // express
-import express = require("express");
-const app: express.Application = express();
+const express = require("express");
+const app = express();
 var bodyParser = require("body-parser");
+
 //primero middleware de bodyParser para poder tener en el json del body
-app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json({ limit: "10mb" }));
 
 app.use((req, res, next) => {
@@ -15,29 +16,15 @@ app.use((req, res, next) => {
     "Access-Control-Allow-Methods",
     "GET, PATCH, PUT, POST, DELETE, OPTIONS"
   );
-  // authorized headers for preflight requests
-  // https://developer.mozilla.org/en-US/docs/Glossary/preflight_request
   res.header("Access-Control-Allow-Headers", "*");
   next();
 });
 
 // rutas:
-const apiRoutes = require("./modules/api");
-const loginRoutes = require("./modules/login");
-const endpointRoutes = require("./modules/endpoint");
-const searchRoutes = require("./modules/search");
-const { getModules } = require ("@utils/getModules");
-
-// json modules:
-console.log("modulos disponibles:");
-console.log(getModules());
-
+const apiRoutes = require("./api");
 
 // setup modulos:
-app.use(loginRoutes);
 app.use(apiRoutes);
-app.use(endpointRoutes);
-app.use(searchRoutes);
 
 app.get("/", function (req, res) {
   res.json({ status: "Hello World!" });

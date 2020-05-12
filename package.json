@@ -2,38 +2,41 @@
   "name": "fakebackend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "dev": "ts-node-dev --respawn --transpileOnly ./src/server.ts",
-    "start": "ts-node src/server.ts"
+    "start": "nodemon --exec babel-node src/server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/FDSoftware/FakeBackend.git"
-  },
-  "author": "FDSoftware",
+  "author": "",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/FDSoftware/FakeBackend"
-  },
-  "homepage": "https://github.com/FDSoftware/FakeBackend#readme",
+  "homepage": "",
   "dependencies": {
-    "@types/express": "^4.17.2",
-    "@types/jsonwebtoken": "^8.3.5",
-    "@types/node": "^13.9.8",
-    "bcrypt": "^3.0.7",
     "body-parser": "^1.19.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
     "module-alias": "^2.2.2",
-    "querystring": "^0.2.0",
-    "ts-node": "^8.9.0",
-    "ts-node-dev": "^1.0.0-pre.44",
-    "typescript": "^3.8.3"
+    "multer": "^1.4.2",
+    "querystring": "^0.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.6",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "nodemon": "^2.0.3",
+    "prettier": "^1.19.1"
   },
   "engines": {
     "node": "10.x"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "data/*"
+    ],
+    "delay": "2500"
   },
   "_moduleAliases": {
     "@utils": "src/utils",

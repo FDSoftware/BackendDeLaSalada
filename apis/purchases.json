@@ -2,7 +2,8 @@
 	"cart_head": {
 		"total": 315545.345,
 		"discount": 41225.5564,
-		"units": 1555
+		"units": 1555,
+		"timeClose": "2020-05-13T21:17:32.433Z"
 	},
 	"items": [
 		{

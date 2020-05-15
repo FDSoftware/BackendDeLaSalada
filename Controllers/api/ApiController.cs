@@ -8,7 +8,7 @@ using Microsoft.Extensions.Logging;
 namespace FakeBackend.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api")]
     public class ApiController : ControllerBase
     {
         private readonly ILogger<ApiController> _logger;

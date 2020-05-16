@@ -12,6 +12,7 @@ namespace FakeBackend.Controllers
     public class ApiController : ControllerBase
     {
         private readonly ILogger<ApiController> _logger;
+        public SQLite mySQL = new SQLite();
         public ApiController() 
         {
             // este constructor vacio es para la herencia a los otros metodos

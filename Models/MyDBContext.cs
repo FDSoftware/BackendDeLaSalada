@@ -20,9 +20,10 @@ namespace FakeBackend
             modelBuilder.Entity<Blog>().ToTable("Blogs", "test");
             modelBuilder.Entity<Blog>(entity =>
             {
-                entity.HasKey(e => e.BlogId);
-                entity.HasIndex(e => e.Title).IsUnique();
+                entity.HasIndex(e => e.BlogId).IsUnique();
             });
+            modelBuilder.Entity<Blog>().Property(p => p.BlogId).ValueGeneratedOnAdd();
+
             base.OnModelCreating(modelBuilder);
         }
     }

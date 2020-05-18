@@ -52,7 +52,7 @@ namespace FakeBackend
         public int totales_Unidades { get; set; }           //     "totales_Unidades": 0,
         public int totales_Lineas { get; set; }             //     "totales_Lineas": 0,
         public double totales_DescObtenido { get; set; }    //     "totales_DescObtenido": 0.0,
-        public int paq { get; set; }                        //     "paq": "20",
+        public string paq { get; set; }                        //     "paq": "20",
         public double precio_Incluye_IVA { get; set; }      //     "precio_Incluye_IVA": 0.0,
         public bool tieneImagen { get; set; }               //     "tieneImagen": false
         public OldSearchResult() {

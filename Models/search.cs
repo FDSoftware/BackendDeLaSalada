@@ -25,6 +25,7 @@ namespace FakeBackend
         public int minOrder { get; set; }
         public int minOrderDiscount { get; set; }
         public int orderReminder { get; set; } // pedido "recordatorio"
+        public int packageUnits { get; set; }
         // params
         public bool isCool { get; set; }
         public bool isNew { get; set; }
@@ -55,6 +56,7 @@ namespace FakeBackend
             minOrder = inSearch.compraMinima_UNID;
             minOrderDiscount = inSearch.compraMinima_Oferta;
             orderReminder = inSearch.pedRecordatorio;
+            packageUnits = Int32.Parse(inSearch.paq.Trim());
             isCool = (inSearch.mfrgR_REFRIGERADO != null);
             isNew = (inSearch.producto_NUEVO != null);
             isTraceable = (inSearch.trazable != null);

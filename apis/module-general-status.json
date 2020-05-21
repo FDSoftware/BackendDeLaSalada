@@ -239,48 +239,44 @@
         {
           "text": "Sector 1",
           "value": 1,
-          "data": [
-            {
-              "total": {
-                "units": 124,
-                "percentage": 45
-              },
-              "medicinal": {
-                "units": 148,
-                "percentage": 20
-              },
-              "noMedicinal": {
-                "units": 42,
-                "percentage": 6
-              }
+          "data": {
+            "total": {
+              "units": 124,
+              "percentage": 45
+            },
+            "medicinal": {
+              "units": 148,
+              "percentage": 20
+            },
+            "noMedicinal": {
+              "units": 42,
+              "percentage": 6
             }
-          ]
+          }
         },
         {
           "text": "Sector 2",
           "value": 2,
-          "data": [
-            {
-              "total": {
-                "units": 4587979,
-                "percentage": 65
-              },
-              "medicinal": {
-                "units": 16668,
-                "percentage": 30
-              },
-              "noMedicinal": {
-                "units": 4782,
-                "percentage": 45
-              }
+          "data": {
+            "total": {
+              "units": 4587979,
+              "percentage": 65
+            },
+            "medicinal": {
+              "units": 16668,
+              "percentage": 30
+            },
+            "noMedicinal": {
+              "units": 4782,
+              "percentage": 45
             }
-          ]
+          }
         }
       ]
     }
   },
   {
-    "text": "Boca",
+    "text": "Sector 3",
     "value": 3,
     "data": {
       "accountData": {
@@ -381,42 +377,38 @@
         {
           "text": "Sector 1",
           "value": 1,
-          "data": [
-            {
-              "total": {
-                "units": 2380,
-                "percentage": 90
-              },
-              "medicinal": {
-                "units": 500,
-                "percentage": 35
-              },
-              "noMedicinal": {
-                "units": 6470,
-                "percentage": 2
-              }
+          "data": {
+            "total": {
+              "units": 2380,
+              "percentage": 90
+            },
+            "medicinal": {
+              "units": 500,
+              "percentage": 35
+            },
+            "noMedicinal": {
+              "units": 6470,
+              "percentage": 2
             }
-          ]
+          }
         },
         {
           "text": "Sector 2",
           "value": 2,
-          "data": [
-            {
-              "total": {
-                "units": 333,
-                "percentage": 65
-              },
-              "medicinal": {
-                "units": 333,
-                "percentage": 30
-              },
-              "noMedicinal": {
-                "units": 333,
-                "percentage": 45
-              }
+          "data": {
+            "total": {
+              "units": 333,
+              "percentage": 65
+            },
+            "medicinal": {
+              "units": 333,
+              "percentage": 30
+            },
+            "noMedicinal": {
+              "units": 333,
+              "percentage": 45
             }
-          ]
+          }
         }
       ]
     }

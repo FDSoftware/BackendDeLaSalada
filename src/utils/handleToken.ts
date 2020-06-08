@@ -1,12 +1,14 @@
-var jwt = require("jsonwebtoken");
+//var jwt = require("jsonwebtoken");
 
 /* el certificado RS256 esta pasado por base64 para poder guardarlo en un .env*/
-const rawpass = process.env.PASS ? process.env.PASS : "test"; //esto va en el .env
-const buff =  Buffer.from(rawpass, "base64");
-const clave = buff.toString("ascii");
+/* const rawpass = process.env.PASS ? process.env.PASS : "test"; //esto va en el .env
+const buff = Buffer.from(rawpass, "base64");
+const clave = buff.toString("ascii"); 
+*/
 
 export const handleToken = (req: any, res: any) => {
-  const token = req.headers["x-auth-token"];
+  return { name: "alice" };
+  /*   const token = req.headers["x-auth-token"];
   if (!token) {
     res.status(403).json({ error: "no hay JWT" }).end();
     return -1;
@@ -27,5 +29,5 @@ export const handleToken = (req: any, res: any) => {
       .json({ error: "JWT caducado / invalido", debug: ex.message })
       .end();
     return -1;
-  }
+  } */
 };

@@ -14,23 +14,7 @@
         "balance": {
           "amount": 1245912
         },
-        "totalOptions": [
-          {
-            "text": "Total Farmacias",
-            "value": 1,
-            "amount": 6700
-          },
-          {
-            "text": "Total Perfumerias",
-            "value": 2,
-            "amount": 1000
-          },
-          {
-            "text": "Total",
-            "value": 3,
-            "amount": 30000
-          }
-        ]
+        "totalAmount": 4500
       },
       "barData": {
         "titleContainer": "descuentos",

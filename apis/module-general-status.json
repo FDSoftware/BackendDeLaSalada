@@ -52,7 +52,7 @@
         },
         {
           "id": 3,
-          "name": "pedidos",
+          "name": "Pedidos",
           "label": "",
           "units": 500000,
           "period": "Últimos 2 días",
@@ -190,7 +190,7 @@
         },
         {
           "id": 3,
-          "name": "pedidos",
+          "name": "Pedidos",
           "label": "",
           "units": 900,
           "period": "Últimos 2 días",
@@ -328,7 +328,7 @@
         },
         {
           "id": 3,
-          "name": "pedidos",
+          "name": "Pedidos",
           "label": "",
           "units": 20,
           "period": "Últimos 2 días",

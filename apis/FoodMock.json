@@ -1,0 +1,755 @@
+[
+	{
+		"ID": 664288,
+		"MealName": "Vanilla Bean Melting Moment Cookies With Caramel Filling",
+		"MealURL": "https://spoonacular.com/recipeImages/664288-556x370.jpg",
+		"MealDate": "2029-10-25T18:56:39.476Z",
+		"Category": "dessert",
+		"Status": "checkedIn",
+		"healthScore": 1,
+		"price": 65.01,
+		"quantity": 3,
+		"MealInfo": {
+			"vegan": false,
+			"vegetarian": true,
+			"glutenFree": false,
+			"dairyFree": false,
+			"veryHealthy": false,
+			"sustainable": false
+		}
+	},
+	{
+		"ID": 1098388,
+		"MealName": "Watermelon Salad with Feta, Walnut & Nigella Seeds",
+		"MealURL": "https://spoonacular.com/recipeImages/1098388-556x370.jpg",
+		"MealDate": "2028-09-13T23:00:36.468Z",
+		"Category": "side dish",
+		"Status": "delivered",
+		"healthScore": 19,
+		"price": 187.27,
+		"quantity": 2,
+		"MealInfo": {
+			"vegan": false,
+			"vegetarian": true,
+			"glutenFree": true,
+			"dairyFree": false,
+			"veryHealthy": false,
+			"sustainable": false
+		}
+	},
+	{
+		"ID": 640318,
+		"MealName": "Crab Salad Stuffed Pita Pockets",
+		"MealURL": "https://spoonacular.com/recipeImages/640318-556x370.jpg",
+		"MealDate": "2029-01-01T23:27:23.213Z",
+		"Category": "salad",
+		"Status": "Ordered",
+		"healthScore": 28,
+		"price": 340.6,
+		"quantity": 5,
+		"MealInfo": {
+			"vegan": false,
+			"vegetarian": false,
+			"glutenFree": false,
+			"dairyFree": true,
+			"veryHealthy": false,
+			"sustainable": false
+		}
+	},
+	{
+		"ID": 634318,
+		"MealName": "Barbecued Shrimp & Grits",
+		"MealURL": "https://spoonacular.com/recipeImages/634318-556x370.jpg",
+		"MealDate": "2023-04-09T00:19:13.698Z",
+		"Category": "lunch",
+		"Status": "delivered",
+		"healthScore": 12,
+		"price": 404.97,
+		"quantity": 7,
+		"MealInfo": {
+			"vegan": false,
+			"vegetarian": false,
+			"glutenFree": true,
+			"dairyFree": false,
+			"veryHealthy": false,
+			"sustainable": false
+		}
+	},
+	{
+		"ID": 633340,
+		"MealName": "Bacon Wrapped Green Bean Bundles",
+		"MealURL": "https://spoonacular.com/recipeImages/633340-556x370.jpg",
+		"MealDate": "2026-11-09T08:19:05.277Z",
+		"Category": "side dish",
+		"Status": "Ordered",
+		"healthScore": 4,
+		"price": 161.77,
+		"quantity": 7,
+		"MealInfo": {
+			"vegan": false,
+			"vegetarian": false,
+			"glutenFree": true,
+			"dairyFree": false,
+			"veryHealthy": false,
+			"sustainable": false
+		}
+	},
+	{
+		"ID": 633624,
+		"MealName": "Baked Fried Chicken With Cauliflower Mash",
+		"MealURL": "https://spoonacular.com/recipeImages/633624-556x370.jpg",
+		"MealDate": "2020-09-22T00:34:59.707Z",
+		"Category": "lunch",
+		"Status": "checkedIn",
+		"healthScore": 46,
+		"price": 399.76,
+		"quantity": 8,
+		"MealInfo": {
+			"vegan": false,
+			"vegetarian": false,
+			"glutenFree": false,
+			"dairyFree": false,
+			"veryHealthy": false,
+			"sustainable": false
+		}
+	},
+	{
+		"ID": 636178,
+		"MealName": "Broccoli Cheddar Soup, A Panera Bread Co. Copycat",
+		"MealURL": "https://spoonacular.com/recipeImages/636178-556x370.jpg",
+		"MealDate": "2025-07-15T04:25:38.107Z",
+		"Category": "bread",
+		"Status": "delivered",
+		"healthScore": 25,
+		"price": 196.38,
+		"quantity": 1,
+		"MealInfo": {
+			"vegan": false,
+			"vegetarian": true,
+			"glutenFree": false,
+			"dairyFree": false,
+			"veryHealthy": false,
+			"sustainable": false
+		}
+	},
+	{
+		"ID": 715446,
+		"MealName": "Slow Cooker Beef Stew",
+		"MealURL": "https://spoonacular.com/recipeImages/715446-556x370.jpg",
+		"MealDate": "2029-10-22T17:12:46.164Z",
+		"Category": "lunch",
+		"Status": "delivered",
+		"healthScore": 100,
+		"price": 293.64,
+		"quantity": 2,
+		"MealInfo": {
+			"vegan": false,
+			"vegetarian": false,
+			"glutenFree": true,
+			"dairyFree": true,
+			"veryHealthy": true,
+			"sustainable": false
+		}
+	},
+	{
+		"ID": 634237,
+		"MealName": "Bananas Foster Ice Cream",
+		"MealURL": "https://spoonacular.com/recipeImages/634237-556x370.jpg",
+		"MealDate": "2028-02-16T03:00:35.788Z",
+		"Category": "dessert",
+		"Status": "delivered",
+		"healthScore": 11,
+		"price": 538.62,
+		"quantity": 5,
+		"MealInfo": {
+			"vegan": false,
+			"vegetarian": true,
+			"glutenFree": true,
+			"dairyFree": false,
+			"veryHealthy": false,
+			"sustainable": false
+		}
+	},
+	{
+		"ID": 639057,
+		"MealName": "Chocolate Hazelnut Cake",
+		"MealURL": "https://spoonacular.com/recipeImages/639057-556x370.jpg",
+		"MealDate": "2029-08-23T09:03:24.731Z",
+		"Category": "side dish",
+		"Status": "checkedIn",
+		"healthScore": 3,
+		"price": 202.86,
+		"quantity": 2,
+		"MealInfo": {
+			"vegan": false,
+			"vegetarian": false,
+			"glutenFree": false,
+			"dairyFree": false,
+			"veryHealthy": false,
+			"sustainable": false
+		}
+	},
+	{
+		"ID": 659479,
+		"MealName": "Savory Olive & Goat Cheese Palmiers",
+		"MealURL": "https://spoonacular.com/recipeImages/659479-556x370.jpg",
+		"MealDate": "2021-07-31T07:05:07.212Z",
+		"Category": "antipasti",
+		"Status": "Ordered",
+		"healthScore": 3,
+		"price": 76.99,
+		"quantity": 1,
+		"MealInfo": {
+			"vegan": false,
+			"vegetarian": false,
+			"glutenFree": false,
+			"dairyFree": false,
+			"veryHealthy": false,
+			"sustainable": false
+		}
+	},
+	{
+		"ID": 637187,
+		"MealName": "Carrot Cake Snack Bites",
+		"MealURL": "https://spoonacular.com/recipeImages/637187-556x370.jpg",
+		"MealDate": "2022-08-22T18:29:54.610Z",
+		"Category": "antipasti",
+		"Status": "delivered",
+		"healthScore": 14,
+		"price": 22.99,
+		"quantity": 6,
+		"MealInfo": {
+			"vegan": true,
+			"vegetarian": true,
+			"glutenFree": true,
+			"dairyFree": true,
+			"veryHealthy": false,
+			"sustainable": false
+		}
+	},
+	{
+		"ID": 1005367,
+		"MealName": "Shortbread Lemon Bars",
+		"MealURL": "https://spoonacular.com/recipeImages/1005367-556x370.jpg",
+		"MealDate": "2029-12-04T20:53:28.838Z",
+		"Category": "side dish",
+		"Status": "closed",
+		"healthScore": 1,
+		"price": 36.23,
+		"quantity": 1,
+		"MealInfo": {
+			"vegan": false,
+			"vegetarian": true,
+			"glutenFree": false,
+			"dairyFree": false,
+			"veryHealthy": false,
+			"sustainable": false
+		}
+	},
+	{
+		"ID": 639752,
+		"MealName": "Coconut Crusted Rockfish",
+		"MealURL": "https://spoonacular.com/recipeImages/639752-556x370.jpg",
+		"MealDate": "2025-04-07T20:46:57.082Z",
+		"Category": "lunch",
+		"Status": "Ordered",
+		"healthScore": 31,
+		"price": 539.47,
+		"quantity": 1,
+		"MealInfo": {
+			"vegan": false,
+			"vegetarian": false,
+			"glutenFree": false,
+			"dairyFree": false,
+			"veryHealthy": false,
+			"sustainable": false
+		}
+	},
+	{
+		"ID": 646524,
+		"MealName": "Healthy Vegan Red Velvet Brownies",
+		"MealURL": "https://spoonacular.com/recipeImages/646524-556x370.jpg",
+		"MealDate": "2024-07-07T03:44:51.361Z",
+		"Category": "side dish",
+		"Status": "delivered",
+		"healthScore": 11,
+		"price": 41.99,
+		"quantity": 10,
+		"MealInfo": {
+			"vegan": true,
+			"vegetarian": true,
+			"glutenFree": true,
+			"dairyFree": true,
+			"veryHealthy": false,
+			"sustainable": false
+		}
+	},
+	{
+		"ID": 661048,
+		"MealName": "Spicy Chicken Corn Dogs with Homemade Chili Sauce",
+		"MealDate": "2029-04-23T10:17:39.907Z",
+		"Category": "fingerfood",
+		"Status": "checkedIn",
+		"healthScore": 6,
+		"price": 161.83,
+		"quantity": 7,
+		"MealInfo": {
+			"vegan": false,
+			"vegetarian": false,
+			"glutenFree": true,
+			"dairyFree": true,
+			"veryHealthy": false,
+			"sustainable": false
+		}
+	},
+	{
+		"ID": 649503,
+		"MealName": "Lemon and Honey Chicken",
+		"MealURL": "https://spoonacular.com/recipeImages/649503-556x370.jpg",
+		"MealDate": "2025-06-30T19:08:13.719Z",
+		"Category": "side dish",
+		"Status": "checkedIn",
+		"healthScore": 5,
+		"price": 88.9,
+		"quantity": 0,
+		"MealInfo": {
+			"vegan": false,
+			"vegetarian": false,
+			"glutenFree": true,
+			"dairyFree": true,
+			"veryHealthy": false,
+			"sustainable": false
+		}
+	},
+	{
+		"ID": 638074,
+		"MealName": "Chicken Enchilada Salad Wraps",
+		"MealURL": "https://spoonacular.com/recipeImages/638074-556x370.jpg",
+		"MealDate": "2026-01-01T08:53:35.495Z",
+		"Category": "side dish",
+		"Status": "Ordered",
+		"healthScore": 14,
+		"price": 169.53,
+		"quantity": 7,
+		"MealInfo": {
+			"vegan": false,
+			"vegetarian": false,
+			"glutenFree": false,
+			"dairyFree": false,
+			"veryHealthy": false,
+			"sustainable": false
+		}
+	},
+	{
+		"ID": 648524,
+		"MealName": "Jean's Seafood Gumbo",
+		"MealDate": "2020-07-26T11:21:32.402Z",
+		"Category": "lunch",
+		"Status": "delivered",
+		"healthScore": 57,
+		"price": 531.78,
+		"quantity": 6,
+		"MealInfo": {
+			"vegan": false,
+			"vegetarian": false,
+			"glutenFree": false,
+			"dairyFree": true,
+			"veryHealthy": true,
+			"sustainable": false
+		}
+	},
+	{
+		"ID": 641975,
+		"MealName": "Easy Ginger Beef Broccoli",
+		"MealURL": "https://spoonacular.com/recipeImages/641975-556x370.jpg",
+		"MealDate": "2026-12-12T19:02:33.185Z",
+		"Category": "lunch",
+		"Status": "closed",
+		"healthScore": 71,
+		"price": 139.07,
+		"quantity": 10,
+		"MealInfo": {
+			"vegan": false,
+			"vegetarian": false,
+			"glutenFree": false,
+			"dairyFree": true,
+			"veryHealthy": true,
+			"sustainable": false
+		}
+	},
+	{
+		"ID": 636632,
+		"MealName": "Buttery Pull Apart Monkey Bread",
+		"MealURL": "https://spoonacular.com/recipeImages/636632-556x370.jpg",
+		"MealDate": "2021-06-09T12:02:40.012Z",
+		"Status": "Ordered",
+		"healthScore": 3,
+		"price": 34.28,
+		"quantity": 8,
+		"MealInfo": {
+			"vegan": false,
+			"vegetarian": true,
+			"glutenFree": false,
+			"dairyFree": false,
+			"veryHealthy": false,
+			"sustainable": false
+		}
+	},
+	{
+		"ID": 649567,
+		"MealName": "Lemon Coconut Granola",
+		"MealURL": "https://spoonacular.com/recipeImages/649567-556x370.jpg",
+		"MealDate": "2023-07-02T06:51:18.867Z",
+		"Category": "antipasti",
+		"Status": "Ordered",
+		"healthScore": 10,
+		"price": 56.12,
+		"quantity": 8,
+		"MealInfo": {
+			"vegan": false,
+			"vegetarian": true,
+			"glutenFree": true,
+			"dairyFree": true,
+			"veryHealthy": false,
+			"sustainable": false
+		}
+	},
+	{
+		"ID": 716363,
+		"MealName": "Scotch Egg",
+		"MealURL": "https://spoonacular.com/recipeImages/716363-556x370.jpg",
+		"MealDate": "2029-11-02T01:08:18.708Z",
+		"Category": "lunch",
+		"Status": "delivered",
+		"healthScore": 14,
+		"price": 115.06,
+		"quantity": 4,
+		"MealInfo": {
+			"vegan": false,
+			"vegetarian": false,
+			"glutenFree": false,
+			"dairyFree": true,
+			"veryHealthy": false,
+			"sustainable": false
+		}
+	},
+	{
+		"ID": 652750,
+		"MealName": "Mussels & Clams in White Wine {Cozze e Vongole}",
+		"MealURL": "https://spoonacular.com/recipeImages/652750-556x370.jpg",
+		"MealDate": "2029-02-22T22:56:00.883Z",
+		"Status": "checkedIn",
+		"healthScore": 18,
+		"price": 251.9,
+		"quantity": 2,
+		"MealInfo": {
+			"vegan": true,
+			"vegetarian": true,
+			"glutenFree": true,
+			"dairyFree": true,
+			"veryHealthy": false,
+			"sustainable": false
+		}
+	},
+	{
+		"ID": 659929,
+		"MealName": "Shrimp and Cucumber Lettuce Wraps With Fresh Dill",
+		"MealURL": "https://spoonacular.com/recipeImages/659929-556x370.jpg",
+		"MealDate": "2023-04-13T13:40:27.034Z",
+		"Category": "antipasti",
+		"Status": "closed",
+		"healthScore": 3,
+		"price": 77.07,
+		"quantity": 4,
+		"MealInfo": {
+			"vegan": false,
+			"vegetarian": false,
+			"glutenFree": true,
+			"dairyFree": true,
+			"veryHealthy": false,
+			"sustainable": false
+		}
+	},
+	{
+		"ID": 631888,
+		"MealName": "A Christmas With Peking Duck",
+		"MealURL": "https://spoonacular.com/recipeImages/631888-556x370.jpg",
+		"MealDate": "2024-12-28T23:27:56.861Z",
+		"Category": "lunch",
+		"Status": "delivered",
+		"healthScore": 23,
+		"price": 228.79,
+		"quantity": 10,
+		"MealInfo": {
+			"vegan": false,
+			"vegetarian": false,
+			"glutenFree": true,
+			"dairyFree": true,
+			"veryHealthy": false,
+			"sustainable": false
+		}
+	},
+	{
+		"ID": 643061,
+		"MealName": "Flank Steak with Herbed Salsa",
+		"MealURL": "https://spoonacular.com/recipeImages/643061-556x370.jpg",
+		"MealDate": "2027-01-16T01:36:57.044Z",
+		"Category": "lunch",
+		"Status": "closed",
+		"healthScore": 41,
+		"price": 265.76,
+		"quantity": 9,
+		"MealInfo": {
+			"vegan": false,
+			"vegetarian": false,
+			"glutenFree": true,
+			"dairyFree": true,
+			"veryHealthy": false,
+			"sustainable": false
+		}
+	},
+	{
+		"ID": 716361,
+		"MealName": "Stir Fried Quinoa, Brown Rice and Chicken Breast",
+		"MealURL": "https://spoonacular.com/recipeImages/716361-556x370.jpg",
+		"MealDate": "2026-08-10T10:16:49.330Z",
+		"Category": "lunch",
+		"Status": "closed",
+		"healthScore": 57,
+		"price": 365.25,
+		"quantity": 10,
+		"MealInfo": {
+			"vegan": false,
+			"vegetarian": false,
+			"glutenFree": true,
+			"dairyFree": false,
+			"veryHealthy": true,
+			"sustainable": false
+		}
+	},
+	{
+		"ID": 715493,
+		"MealName": "Slow Cooker Red Beans and Rice",
+		"MealURL": "https://spoonacular.com/recipeImages/715493-556x370.jpg",
+		"MealDate": "2022-09-02T19:39:39.083Z",
+		"Category": "lunch",
+		"Status": "closed",
+		"healthScore": 16,
+		"price": 161.12,
+		"quantity": 3,
+		"MealInfo": {
+			"vegan": false,
+			"vegetarian": false,
+			"glutenFree": true,
+			"dairyFree": false,
+			"veryHealthy": false,
+			"sustainable": false
+		}
+	},
+	{
+		"ID": 637631,
+		"MealName": "Cheesy Bacon Burger with Spicy Chipotle Aiolo Sauce",
+		"MealURL": "https://spoonacular.com/recipeImages/637631-556x370.jpg",
+		"MealDate": "2022-04-30T08:30:05.974Z",
+		"Category": "lunch",
+		"Status": "checkedIn",
+		"healthScore": 32,
+		"price": 316.97,
+		"quantity": 9,
+		"MealInfo": {
+			"vegan": false,
+			"vegetarian": false,
+			"glutenFree": false,
+			"dairyFree": false,
+			"veryHealthy": false,
+			"sustainable": false
+		}
+	},
+	{
+		"ID": 716217,
+		"MealName": "Vietnamese Pancakes with Vegetables, Herbs and a Fragrant Dipping Sauce (Bánh Xèo)",
+		"MealURL": "https://spoonacular.com/recipeImages/716217-556x370.jpg",
+		"MealDate": "2026-09-15T18:25:37.475Z",
+		"Category": "side dish",
+		"Status": "delivered",
+		"healthScore": 34,
+		"price": 319.19,
+		"quantity": 7,
+		"MealInfo": {
+			"vegan": false,
+			"vegetarian": true,
+			"glutenFree": true,
+			"dairyFree": true,
+			"veryHealthy": false,
+			"sustainable": false
+		}
+	},
+	{
+		"ID": 639865,
+		"MealName": "Coffee Cookies",
+		"MealURL": "https://spoonacular.com/recipeImages/639865-556x370.jpg",
+		"MealDate": "2024-07-30T12:52:43.218Z",
+		"Category": "dessert",
+		"Status": "Ordered",
+		"healthScore": 0,
+		"price": 12.59,
+		"quantity": 7,
+		"MealInfo": {
+			"vegan": false,
+			"vegetarian": false,
+			"glutenFree": false,
+			"dairyFree": true,
+			"veryHealthy": false,
+			"sustainable": false
+		}
+	},
+	{
+		"ID": 641836,
+		"MealName": "Easy Baked Parmesan Chicken",
+		"MealURL": "https://spoonacular.com/recipeImages/641836-556x370.jpg",
+		"MealDate": "2022-09-12T23:52:15.590Z",
+		"Status": "Ordered",
+		"healthScore": 35,
+		"price": 351.25,
+		"quantity": 8,
+		"MealInfo": {
+			"vegan": false,
+			"vegetarian": false,
+			"glutenFree": false,
+			"dairyFree": false,
+			"veryHealthy": false,
+			"sustainable": false
+		}
+	},
+	{
+		"ID": 660404,
+		"MealName": "Smoky Deviled Eggs",
+		"MealURL": "https://spoonacular.com/recipeImages/660404-556x370.jpg",
+		"MealDate": "2027-06-10T01:31:58.608Z",
+		"Category": "side dish",
+		"Status": "checkedIn",
+		"healthScore": 2,
+		"price": 108.58,
+		"quantity": 1,
+		"MealInfo": {
+			"vegan": false,
+			"vegetarian": false,
+			"glutenFree": true,
+			"dairyFree": true,
+			"veryHealthy": false,
+			"sustainable": false
+		}
+	},
+	{
+		"ID": 715595,
+		"MealName": "How to Make the Cheesiest Bowtie Mac and Cheese",
+		"MealURL": "https://spoonacular.com/recipeImages/715595-556x370.jpg",
+		"MealDate": "2021-09-17T03:58:00.174Z",
+		"Category": "side dish",
+		"Status": "checkedIn",
+		"healthScore": 12,
+		"price": 122.73,
+		"quantity": 9,
+		"MealInfo": {
+			"vegan": false,
+			"vegetarian": true,
+			"glutenFree": false,
+			"dairyFree": false,
+			"veryHealthy": false,
+			"sustainable": false
+		}
+	},
+	{
+		"ID": 631830,
+		"MealName": "10 Minute Brownies",
+		"MealURL": "https://spoonacular.com/recipeImages/631830-556x370.jpg",
+		"MealDate": "2025-06-25T17:37:47.211Z",
+		"Category": "antipasti",
+		"Status": "delivered",
+		"healthScore": 1,
+		"price": 29.1,
+		"quantity": 0,
+		"MealInfo": {
+			"vegan": false,
+			"vegetarian": false,
+			"glutenFree": false,
+			"dairyFree": true,
+			"veryHealthy": false,
+			"sustainable": false
+		}
+	},
+	{
+		"ID": 657058,
+		"MealName": "Powdered Buttermilk Beignets With Raspberry and Chocolate Dipping Sauce",
+		"MealURL": "https://spoonacular.com/recipeImages/657058-556x370.jpg",
+		"MealDate": "2021-11-14T03:31:52.000Z",
+		"Category": "antipasti",
+		"Status": "delivered",
+		"healthScore": 2,
+		"price": 28.22,
+		"quantity": 6,
+		"MealInfo": {
+			"vegan": false,
+			"vegetarian": false,
+			"glutenFree": false,
+			"dairyFree": false,
+			"veryHealthy": false,
+			"sustainable": false
+		}
+	},
+	{
+		"ID": 639267,
+		"MealName": "Chocolate-Date Cake with Chocolate Sticky Toffee Glaze",
+		"MealDate": "2025-07-17T12:15:03.684Z",
+		"Category": "dessert",
+		"Status": "delivered",
+		"healthScore": 1,
+		"price": 94.28,
+		"quantity": 0,
+		"MealInfo": {
+			"vegan": false,
+			"vegetarian": false,
+			"glutenFree": false,
+			"dairyFree": false,
+			"veryHealthy": false,
+			"sustainable": false
+		}
+	},
+	{
+		"ID": 715541,
+		"MealName": "Pink Lemonade Crinkle Cookies",
+		"MealURL": "https://spoonacular.com/recipeImages/715541-556x370.jpg",
+		"MealDate": "2027-06-15T04:09:20.422Z",
+		"Category": "side dish",
+		"Status": "checkedIn",
+		"healthScore": 1,
+		"price": 53.93,
+		"quantity": 6,
+		"MealInfo": {
+			"vegan": false,
+			"vegetarian": true,
+			"glutenFree": false,
+			"dairyFree": false,
+			"veryHealthy": false,
+			"sustainable": false
+		}
+	},
+	{
+		"ID": 634040,
+		"MealName": "Banana Chocolate Chip Cake With Peanut Butter Frosting - gluten free, dairy free, soy free",
+		"MealDate": "2022-10-05T10:57:23.250Z",
+		"Category": "dessert",
+		"Status": "Ordered",
+		"healthScore": 76,
+		"price": 1101.85,
+		"quantity": 5,
+		"MealInfo": {
+			"vegan": false,
+			"vegetarian": false,
+			"glutenFree": true,
+			"dairyFree": true,
+			"veryHealthy": true,
+			"sustainable": false
+		}
+	}
+]

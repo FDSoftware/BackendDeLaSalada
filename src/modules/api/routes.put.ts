@@ -31,7 +31,7 @@ router.put("/api/:key/:key2?", function (req: any, res: any, next: any) {
     });
   } else {
     jsonData.map((e: any, index: number) => {
-      if (e.id == req.body.id) {
+      if (e.id == req.body.id || e.ID == req.body.ID) {
         jsonData[index] = req.body;
       }
     });

@@ -1,0 +1,59 @@
+[
+  {
+    "ID": 664288,
+    "MealName": "Vanilla Bean Melting Moment Cookies With Caramel Filling",
+    "MealURL": "https://spoonacular.com/recipeImages/664288-556x370.jpg",
+    "MealDate": "2029-10-25T18:56:39.476Z",
+    "Category": "dessert",
+    "Status": "checkedIn",
+    "healthScore": 1,
+    "price": 65.01,
+    "quantity": 3,
+    "MealInfo": {
+      "vegan": false,
+      "vegetarian": true,
+      "glutenFree": false,
+      "dairyFree": false,
+      "veryHealthy": false,
+      "sustainable": false
+    }
+  },
+  {
+    "ID": 1098388,
+    "MealName": "Watermelon Salad with Feta, Walnut & Nigella Seeds",
+    "MealURL": "https://spoonacular.com/recipeImages/1098388-556x370.jpg",
+    "MealDate": "2028-09-13T23:00:36.468Z",
+    "Category": "side dish",
+    "Status": "delivered",
+    "healthScore": 19,
+    "price": 187.27,
+    "quantity": 2,
+    "MealInfo": {
+      "vegan": false,
+      "vegetarian": true,
+      "glutenFree": true,
+      "dairyFree": false,
+      "veryHealthy": false,
+      "sustainable": false
+    }
+  },
+  {
+    "ID": 640318,
+    "MealName": "Crab Salad Stuffed Pita Pockets",
+    "MealURL": "https://spoonacular.com/recipeImages/640318-556x370.jpg",
+    "MealDate": "2029-01-01T23:27:23.213Z",
+    "Category": "salad",
+    "Status": "Ordered",
+    "healthScore": 28,
+    "price": 340.6,
+    "quantity": 5,
+    "MealInfo": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "veryHealthy": false,
+      "sustainable": false
+    }
+  }
+]
